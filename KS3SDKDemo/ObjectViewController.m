@@ -935,7 +935,7 @@ KS3Client 方法：
 
 }
 
-//最小支持但块上传小于5M，最大支持单块上传为5G
+//获取服务端token 上传文件
 - (void)singleUploadByAppServer
 {
     
