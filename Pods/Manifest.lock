@@ -1,0 +1,16 @@
+PODS:
+  - New_Ks3SDK (1.0.3)
+
+DEPENDENCIES:
+  - New_Ks3SDK (~> 1.0.3)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - New_Ks3SDK
+
+SPEC CHECKSUMS:
+  New_Ks3SDK: f17cab76c2f78ae2901ed57ca87ab54d61f9465a
+
+PODFILE CHECKSUM: 9df1a2f2a9fc1d4f389025e31546504c03c5351f
+
+COCOAPODS: 1.9.3

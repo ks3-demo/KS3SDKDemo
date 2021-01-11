@@ -1,0 +1,1205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BDB7B8E2015E6ECB024C9334D82369 /* KS3DeleteBucketResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C0962188A35328A66B70BCE5EA716AC3 /* KS3DeleteBucketResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02C2BB5C2FCE2C0502E8AE6094C89283 /* KS3Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 86839F1F398801B26256DC64A03EABD4 /* KS3Request.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04412C83A335C259E83E13FBB5DAC2D6 /* KS3BucketACLXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB9505E8F8C77CB195A80CE97AFB512 /* KS3BucketACLXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		063FFA94179E33BEA2AF8E2A3F2951A1 /* KS3DeleteObjectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E28399F888D04B864A996E7A10C41364 /* KS3DeleteObjectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0660018A87395874122F730431872284 /* KS3ListBucketsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF68E406AE374B227E603832CFAEC2B /* KS3ListBucketsRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		072700E9EB4D77E438536688E5033F67 /* KS3SetACLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC96775651601C4FF74D99759C87F89 /* KS3SetACLResponse.m */; };
+		082ADADAF491113B2F3E10632CC9324A /* KS3HeadBucketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 959AC73CCE589B224EEF8E8555D2AF0C /* KS3HeadBucketRequest.m */; };
+		08F03729436100506F84C29D37A07F46 /* KS3ListPartsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC09951964F2CDF4ADB252CEB8E49BD /* KS3ListPartsResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09A1AAACC906A6AD05797F680CB1DFB4 /* KS3ListPartsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF585E1A7A227DBCFBB259BEC20A6B2 /* KS3ListPartsResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AAD27372754E572EAC21C747DA28BB3 /* KS3AbortMultipartUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DABC84332D0D75C64016CE4442C42F /* KS3AbortMultipartUploadResponse.m */; };
+		0C237BFA4984EC39A914F8E0FED926BE /* KS3ListPartsResultXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 022BF82F17BAD039E168039D7F0B68AC /* KS3ListPartsResultXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DC0ECFDF9512811EF5A9824208742B8 /* KS3ErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD38EFA3A01FD36E81B68D8988EEDA39 /* KS3ErrorHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E1ECFDF6CAE780B6A8963B2D21DE796 /* KS3GetObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A06371F93B649A1724B6EE7A23E5480D /* KS3GetObjectRequest.m */; };
+		0FD07D39426FF289FF994AD9666FDDC6 /* KS3InitiateMultipartUploadXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F37C4068E601207C9A956841EB480DD /* KS3InitiateMultipartUploadXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12A57A72A987989C173B1364DB6C4CAE /* KS3ListObjectsXMLPrarser.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D813CC02F134F4CCB18E8CB378934C /* KS3ListObjectsXMLPrarser.m */; };
+		136DC7C44E7CB09F8D4CFAE5CA7D4F81 /* KS3AbortMultipartUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2343F196A7A78EF9FB2D33322F909F3D /* KS3AbortMultipartUploadRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		141AA60070208A34D1BB52DE50E46EA7 /* KS3SetObjectACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C391D504B66C23CE1E831719703785F6 /* KS3SetObjectACLRequest.m */; };
+		15AF2BF0A7851EF5BE4FB1AF182BC299 /* KS3Response.m in Sources */ = {isa = PBXBuildFile; fileRef = D1043204A54A19F8E98016A76083B22E /* KS3Response.m */; };
+		15BE4966D7A018A6C923B69C517ED19F /* KS3InitiateMultipartUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 597A66F8A706D538EF6D1492D58B456C /* KS3InitiateMultipartUploadResponse.m */; };
+		1686446E5B92E0A59944DA0158C1E114 /* KS3GrantAccessControlList.h in Headers */ = {isa = PBXBuildFile; fileRef = 972C12675B9989D7FAD927A777E45FFF /* KS3GrantAccessControlList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		169B57DA448C2CD05EA295521DDC9729 /* KS3SetBucketLoggingResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DC05CDCBB645B8DD49DD0AC037D5E5 /* KS3SetBucketLoggingResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A1026B83307A48D691507747D702FD0 /* KS3AbstractPutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E00F079E62AE9860E4A7247E47C9979D /* KS3AbstractPutRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A1CE9F2FF8BD375360D400DE4B7D6B9 /* KS3ListBucketsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2ABAA26F2990653805EE1135790E3F /* KS3ListBucketsResult.m */; };
+		1CA13D56CEE1066C7EAD616395AB59A1 /* KS3DownLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAC8E39B0BB9394ACE4E32774F21EF7 /* KS3DownLoad.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CC2B1A0AA4A8B537B04DF10628A34E5 /* KS3SetBucketLoggingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 419C404FD5F3B8265FB0AFB6443E792F /* KS3SetBucketLoggingRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D14EEAA9A9CD175B250713FB583C53B /* KS3URLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C70846BC7D6339AC37F184FF06FD230A /* KS3URLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D9A3584D5A21AC241F9E85953053BC0 /* KS3DeleteObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B172DDE3E09708DDB68C59FD657C82 /* KS3DeleteObjectRequest.m */; };
+		1F8D46387C9D4B2D707E58A28945B46B /* KS3PutObjectCopyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942469BF6AA5EBFCCCF0FC41D5E506 /* KS3PutObjectCopyRequest.m */; };
+		209727AE2D2F7F08F2C906D3E38910FF /* KS3ErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E9867BEF89F9AB60C2CB0B121E7B0 /* KS3ErrorHandler.m */; };
+		22679EB902E4B96F42563D1EC0AB50AE /* KS3ListPartsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D166B3C2D43FFAFCA9390E1C2668353 /* KS3ListPartsResponse.m */; };
+		226818B12DE7B497E0AAA4C1C39F1689 /* KS3SetBucketLoggingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C555027045046E95C6C28EB454CBD8 /* KS3SetBucketLoggingResponse.m */; };
+		257530C194F2CFC4DC4083C495CAFD79 /* KS3ClientException.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E02AF0762F833C406B2C3E7043CF38 /* KS3ClientException.m */; };
+		2584E65299A2ABE9975693177AA8730F /* KS3DeleteObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A9283FB2D9E29EDE52688F4A70B27977 /* KS3DeleteObjectResponse.m */; };
+		263F082AC0123C2BA3FDA1F20B3AFB9E /* KS3ObjectACLXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE6708A6CD065F34072F53AC2A3FE47 /* KS3ObjectACLXMLParser.m */; };
+		2767B8D02A2E4769AEB9159D94627678 /* KS3UploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB7AB168312D14F2F7807713C917EF9 /* KS3UploadManager.m */; };
+		2789A155138990BC60DDF798196B5594 /* KS3ServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5880AFF75819FC27258F283C74A36C /* KS3ServiceResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28F4F6A7F83DDBA91D5F117257E687F2 /* KS3ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA042633054D2AD41C90FE7E134A9 /* KS3ServiceRequest.m */; };
+		290A2C61A7423F334CB0F98651F568C2 /* KS3Request.m in Sources */ = {isa = PBXBuildFile; fileRef = E106ACF73C68A361A2536A05668F308D /* KS3Request.m */; };
+		292A155F7613AEEE401398BA415C1620 /* KS3GrantAccessControlList.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E30650D6B04A8206DC5247205F3E6A /* KS3GrantAccessControlList.m */; };
+		296522D9401EDD8E72962B6D02FBA16D /* KS3SDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E258A061F4701FEB646AADF5596AFA3A /* KS3SDKUtil.m */; };
+		2A1D7F7B3EB32BBB5E376A7EA7C7A3F1 /* KS3BucketNameUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B14B3E4A1BBABC0BAE063D67E8CFF /* KS3BucketNameUtilities.m */; };
+		2DD70F11FB8A7AA310434996C6B7514D /* KS3DeleteBucketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AD05E2DFAE52AA8B5890310F7ECF0 /* KS3DeleteBucketRequest.m */; };
+		311F9230F96D2F51E6F608925CC664E7 /* KS3SetACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD19ECA0E5D56D7EE48C96B613E681F /* KS3SetACLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		327D35B3E087D6723D346321E245D8EC /* KS3UploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16312B0D4F2AC8650C793F88C75036C8 /* KS3UploadRequest.m */; };
+		3364C9FAF4F51239C30551D0177870C7 /* KS3SetObjectGrantACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A47B8924B813952FB6FF8FCF30997F /* KS3SetObjectGrantACLRequest.m */; };
+		36AB2A0C835624819D1F90CFFD4FB1E4 /* KS3PutObjectCopyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A340B905A131CFE73DDA8D65CC267A6 /* KS3PutObjectCopyRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3701E2092377B0155595A886CD38B813 /* KS3BucketObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4082227287560AC70182E3D99342FCC9 /* KS3BucketObject.m */; };
+		386D49D522775414AD2166D26FC1E447 /* KS3AbstractPutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 463C1FA63F49C4BFB730168FF49BECCA /* KS3AbstractPutRequest.m */; };
+		39F0BF270537E9EA9EEF40201C82D2A3 /* KS3ListBucketsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24098CE5E7778CFCC007B236EA5DD514 /* KS3ListBucketsResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C69B31E2581B111F9C80D8514B9C396 /* KS3PutObjectCopyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F916EB2A792AEC43CCA0DCC6E39FDD50 /* KS3PutObjectCopyResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CA1DE002F9BC9D35047F758DCB8DAC5 /* KS3InitiateMultipartUploadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED2B8107BAF7896A631E861F4E2C866 /* KS3InitiateMultipartUploadResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DBEDD3AA419B01386EA9A07BB4CD543 /* KS3MD5Util.h in Headers */ = {isa = PBXBuildFile; fileRef = E4097206E9F1BE84508B75D914232E03 /* KS3MD5Util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40B0B93A5794BE4FBBEC8C697A789E19 /* KS3SDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BD65C5ED1C810E34C613BD2248170B /* KS3SDKUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40C65C38ADC89DE791A9DAD177CA8B25 /* KS3ClientException.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF373E126E1936C137D015FCF920B84 /* KS3ClientException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4912A26D9CACE2DD0FB38DCE797CBDB8 /* KS3SetObjectGrantACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B82F517040482F075ADF6FC2ED5F5A /* KS3SetObjectGrantACLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BEBA548B145B6D0A1400CCEC60BD3C0 /* KS3URLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1080780C7A6D3C59DDA6FE908FA60AD /* KS3URLRequest.m */; };
+		4C7AABD917CCB6B2E65C1713004795D3 /* KS3MultipartUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B369B35B98852E243BFC9E2BDD08AE7 /* KS3MultipartUpload.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FE42A05889030B7FE968A7DE5EA76B0 /* KS3GetACLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF676F29ACBA000AF1C36857325FB5B4 /* KS3GetACLResponse.m */; };
+		50F87066AB08D31F8F1B7A31ACBB0D2E /* KS3Response.h in Headers */ = {isa = PBXBuildFile; fileRef = 0023C48ECC4698037BFB02F73090C457 /* KS3Response.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		518CDF27D567F56588A37BCC1BB1E594 /* KS3HeadObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E28836EBA7DE220A363CADA0E3C136 /* KS3HeadObjectRequest.m */; };
+		52DE0EF758B9CE03D812DEFAEBD86060 /* KS3InitiateMultipartUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F4B79234220ABEA420877FBDD5B72 /* KS3InitiateMultipartUploadRequest.m */; };
+		52E78B7B8C6272EC051B825B50861A70 /* KS3YunSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C83C59F856D31272E899EF1626C3ADEF /* KS3YunSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		567DC26504E53E5A86F78DA6700F8D7E /* KS3CompleteMultipartUploadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1334437E2C6C73B40CCA22762DAF8D47 /* KS3CompleteMultipartUploadResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56BA87BCD4C3D9A4BC6937EE1CD16F69 /* KS3HeadBucketResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D108BC741E3CE20DCDD3C8B7A50608B3 /* KS3HeadBucketResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5890343E49B587892DE5386A7C0ECED5 /* KS3CreateBucketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D68119140C60EC9DB07E73BCDF11F6E /* KS3CreateBucketRequest.m */; };
+		59082378437AADF0CAF1D9AD2B6351F1 /* KS3Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F759FC5F0D0406C2A46B36D7A24D9 /* KS3Bucket.m */; };
+		5A27BF9B3669FC6E3879E3B71713F6EA /* KS3SetBucketLoggingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96097031DAB8B67785041D47F958AFCB /* KS3SetBucketLoggingRequest.m */; };
+		5ABCB5755FC85520EDE6DFB1C907221F /* KS3MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476F7676A6FAD50B36B6D1E5665598E /* KS3MD5Util.m */; };
+		5BB863AA6E55CE45A5870CB644148E91 /* KS3Owner.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C6399282074FA186A8D1511CBD3613 /* KS3Owner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D9E446E69873495B0CC31B523A36AEB /* KS3CompleteMultipartUploadResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2080C238E5BE3EC9FB95FEDA9BC489 /* KS3CompleteMultipartUploadResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DC458A5C2D4AE74620EE4790DFA3704 /* KS3UploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4898B10B339C4B170DEB16A4EB51CE94 /* KS3UploadRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E4855190C6D858A9162B587774B54B6 /* KS3CompleteMultipartUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC04D9142C469BBB5874E239E3937BB /* KS3CompleteMultipartUploadRequest.m */; };
+		5EB7547026BA3D5008C1C98A960749AC /* KS3ListObjectsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B96505CD6EBEF3075617B0CDF360A6A /* KS3ListObjectsResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F48E4F19AF933C74845B1E8CCADE18D /* KS3AbstractWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0354F81B186EA80552EC7FF1ECEC963F /* KS3AbstractWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F92E6DD392E798ED8E819E371BB66F8 /* KS3AbortMultipartUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DF5DDC81C61DE0E8210508552ECFCE /* KS3AbortMultipartUploadRequest.m */; };
+		6019A6CF8B4DDF2E470044C2615AF978 /* KS3UploadPartResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E4833BFED78E94BA49808EE25F5F43 /* KS3UploadPartResponse.m */; };
+		604EBB1276E8DDD7E80547F668533E44 /* KS3SetGrantACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83041F3C09AA98EBA30A6A4B749721EE /* KS3SetGrantACLRequest.m */; };
+		60F5FC1E4412178769CC30B101AF27A8 /* KS3HeadObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D035D312886E3C0D74BF9E9549BB94C /* KS3HeadObjectResponse.m */; };
+		61A46917F1310B4322BE3AEB584ED881 /* KS3HeadBucketResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E445223D59B0773C232D2B6491E681 /* KS3HeadBucketResponse.m */; };
+		61E7623260FAAC29058DCAAAFEEAC5BC /* KS3PutObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F55945963774FFD85A99745645651B50 /* KS3PutObjectRequest.m */; };
+		63CE5801E4083E828CD238415EC690C5 /* KS3WebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D77608E7BEF8D310E9BE71FA02ADD7 /* KS3WebServiceClient.m */; };
+		6489E8D7F7093CBE7C89EEE700A6CE30 /* KS3GetObjectRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6473B004E80415645CD65C1CBE6F5743 /* KS3GetObjectRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66FCF6A292FE34D54BB95FD8C878540D /* KS3ListObjectsXMLPrarser.h in Headers */ = {isa = PBXBuildFile; fileRef = A3865BFBCCE9AEE0B0D2C10C3050B20E /* KS3ListObjectsXMLPrarser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		695D52C20C92FAF126E043C1AA793DFB /* KS3GetObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FC3F951A7DB35336923AA07043B58 /* KS3GetObjectResponse.m */; };
+		6A66D17084CB9E365D5F0AB977E26F77 /* KS3ResponseHeaderOverrides.h in Headers */ = {isa = PBXBuildFile; fileRef = 813097EDBB89AC1422FA36E25B9249D1 /* KS3ResponseHeaderOverrides.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D0E955F719167442EAC78790311583B /* KS3DeleteBucketRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E06890B1F503F54A4C8754F099D62FE /* KS3DeleteBucketRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DF43BA5CFFC92A3FF7CD60E7B38E870 /* KS3CompleteMultipartUploadResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C34C2D2411DB741F94E6A029FCA53B9 /* KS3CompleteMultipartUploadResult.m */; };
+		71E3FDE7A94D3EDCEA4140A2D21435D5 /* KS3Grant.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E81109EC5ACA8276C84CEDFE2F01A1 /* KS3Grant.m */; };
+		784A7AD67F7611D2DAF55D96F6B4518F /* KS3CompleteMultipartUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E39B70398D8D37D47E6BA5B47AF4DEDF /* KS3CompleteMultipartUploadRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7956D1B7057416D5FB43BFECDDD7C509 /* KS3GetObjectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 035D61BE3E56487505D054A6EBE58728 /* KS3GetObjectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		799FC210705A30B0A9A3BAD170702896 /* KS3Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D5EDFD12B9CBBE92BF3311D1EB052 /* KS3Upload.m */; };
+		79C63B7ECCE23F18E88B8D7699C4B52A /* KS3InitiateMultipartUploadResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B32689861DBD33E057FCB6BFBD9A0D /* KS3InitiateMultipartUploadResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B043209B78286A3FE73F198DDB7AF05 /* KS3DownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595E22142447EFE872197BDAE2224FA /* KS3DownLoad.m */; };
+		7B79445F6398E1C8AB1A074E0BADA548 /* KS3Upload.h in Headers */ = {isa = PBXBuildFile; fileRef = 268DA152CC6A5A9322F2EA2C6C6592F3 /* KS3Upload.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B899593DA854BD9C3B1A18D0664D474 /* KS3SetACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5DD4378B7A759D9056FAFBE4C1DCC /* KS3SetACLRequest.m */; };
+		7C0A203A898894B758F543407E299172 /* KS3SetObjectACLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B19682E6FAC895C23205BB65B9ECDD2 /* KS3SetObjectACLResponse.m */; };
+		7C798C3F3AE7A031ED352AD612571965 /* KS3BucketACLResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 943157FF10A2036CE867E83BCB555BD2 /* KS3BucketACLResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C7B3FB08E6E47CAF3235CC2ABDC0891 /* KS3GetObjectACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0056A660290C1ED1D5364D924C9DD500 /* KS3GetObjectACLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C8965A3A48A43261F176181B38AE324 /* KS3ListObjectsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D89180992D98A2C409DF357452A49B /* KS3ListObjectsRequest.m */; };
+		7CE3BCCDCEB4209AB4B6B2DC7A89073F /* KS3InitiateMultipartUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FE076CA67ED504D152AF75EF450AF7E4 /* KS3InitiateMultipartUploadRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CE583D917FF96853AC83B720962AB24 /* KS3WebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 56365D578C1A68DFBACB96447A9F2191 /* KS3WebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D6426A7079752347AA42B49400E11CA /* KS3ListObjectsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E83E505DBD47FA1CE6A128AA3E887FDE /* KS3ListObjectsResponse.m */; };
+		801F97171E00AD8BF66E6E678BE680E2 /* KS3PutObjectRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CBECDBF8AAF66E325B17B6DF11C1EF /* KS3PutObjectRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80E78C3673F3B7508D104AEEE13EC6BA /* KS3AbortMultipartUploadResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A900356F78F08015456041E0B67C6EFD /* KS3AbortMultipartUploadResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81EDE94A0E625A2EB63D63BB96334E58 /* KS3HeadObjectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6780B3D812297480A08D3C57F422CA /* KS3HeadObjectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8383BEE8C8CE1AF804235105EB964F5D /* KS3SetGrantACLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF55B1BEDA49F46186AEC61C218429D /* KS3SetGrantACLResponse.m */; };
+		84A287EFEE79EE152CC8BCC227A91216 /* KS3ObjectSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D4DD989E8F449AB4EC035F30073D40 /* KS3ObjectSummary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		852556FBEC5E1D29B5210A2C39F89C80 /* KS3ListPartsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EDADC7FA3D5DF925AC63E7421EE757 /* KS3ListPartsResult.m */; };
+		85C998FED8DCFC0616237C6BB3A704C0 /* KS3SetACLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6372C0A52ABC3BF98AA06BEAB19550AB /* KS3SetACLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		886BBF29B32DE087DBA1E9A9CE245774 /* KS3Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 501BC9822F52685A9B9276EACFEF8C6D /* KS3Part.m */; };
+		8B2D180CAD9D058F7D318F89524EAF35 /* KS3HeadObjectRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE76ED3A3A47076648AB73BA7F320F4 /* KS3HeadObjectRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BE7BECD689C986308FE43D89CE713D9 /* KS3ListBucketsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 313D803B805EF81E0F0DE685BF3D0BBD /* KS3ListBucketsResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C2CDB0C2D2D148E77EA612D3D86D2A7 /* KS3InitiateMultipartUploadResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 024944C9592F2A23993F50E4EA679361 /* KS3InitiateMultipartUploadResult.m */; };
+		8C5C4B6CD7CD9E53D396E946871D4873 /* KS3ServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BF3469DDBA336E1630F5180C4363C1 /* KS3ServiceResponse.m */; };
+		8DBFF3F855278147B8A1561D3E7C873E /* KS3AccessControlList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4999FE0A4A12C13C7F615931C5FF2F /* KS3AccessControlList.m */; };
+		8E1B307747F8D5B14B429DF70C16D1BD /* KS3SetObjectGrantACLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4384EEC63B876236F3886E15162BCB41 /* KS3SetObjectGrantACLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EBA5E3FE86CE304830B6D28FD82C97D /* KS3CreateBucketRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 521E29DC043927F362F78749A168FB82 /* KS3CreateBucketRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90CABF5CAADE61FC9EF2432EE2B7CB2C /* KS3GetACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8120465736893C4A1240A3859F55 /* KS3GetACLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91D5FB45D7FC351C3AB5D6D92E335069 /* KS3GetACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D06DEE08CE1125765A37203B369A018 /* KS3GetACLRequest.m */; };
+		929D534008CAC316E8AAD10290EC83E8 /* New_Ks3SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CDF9AAAD7C750841DD02FF45D0D419 /* New_Ks3SDK-dummy.m */; };
+		93CE2206649EBE3AB39B52A8E0F724D5 /* KS3ListObjectsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9D5378D12B81C910D27C1D0D1EE119 /* KS3ListObjectsResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94BD8BDB8E1AC76756F1679870B7D425 /* KS3Client.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B14F73C4008A03343A1E2823B8E233 /* KS3Client.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95684085ED29E6201F69B33DF6A740B3 /* KS3ListBucketsXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E5C64B5BA109BA166B63064AFDC47B /* KS3ListBucketsXMLParser.m */; };
+		98341EA502D18A43D5FED037B1451CFC /* KS3ListPartsResultXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD78E70336E05AC06C6B7F0A417AF7 /* KS3ListPartsResultXMLParser.m */; };
+		99CEC3F219707FEB21E5853DB16801F9 /* KS3AbstractWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ECE0681A694BACB40E8AEF51EA5772 /* KS3AbstractWebServiceClient.m */; };
+		9E193AED726031E365153456A6F86F15 /* KS3HeadBucketRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB05D3FCD4434EFF749401A267E5145 /* KS3HeadBucketRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F3B1C27D9B2554F2617162342312B61 /* KS3UploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D5A68ACB5A725E4289F999D7FDF062 /* KS3UploadManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A25AB0E348A6BA803B6E7B6FCC2857E8 /* KS3Client.m in Sources */ = {isa = PBXBuildFile; fileRef = D8348C117B74E0F4A0C12686E1A59B2E /* KS3Client.m */; };
+		A59B5523B26D670703329E115CEF0A74 /* KS3DeleteBucketResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AFDBB5108B8C5A50988F81825D1038 /* KS3DeleteBucketResponse.m */; };
+		A86F586CCAF472BC515B90D18E751B0A /* KS3ObjectSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0D5512EEED9567D236CAD1A63F2502 /* KS3ObjectSummary.m */; };
+		AA329E928B1984446E467CD89A75654E /* KS3BucketACLXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D074F2E38853E5C235C99707AB8E196 /* KS3BucketACLXMLParser.m */; };
+		AD194A8101A13D54E55F696E43C4B60F /* KS3AuthUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A34A1CDF1C494E64DFC6A3CFA1C03 /* KS3AuthUtils.m */; };
+		B21489405250279A83CA32D14AF9CE51 /* KS3Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = C153310FD1D81F54B58413FB93DB0569 /* KS3Constants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B673FD5564F78349C23C7B6C6AAA6D1D /* KS3PutObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 254C0827BE3757D9153E59ACBF9CCA33 /* KS3PutObjectResponse.m */; };
+		B6ED3BC04A1651AD5CA454B40925D5DC /* KS3UploadPartRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CECBF33F06A0C95A47B816BF3CA1A0 /* KS3UploadPartRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7D0A04ACD78BAD0D183D3E5E22C39C8 /* KS3Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = A75C804196D3F034DA963503A7DCC30A /* KS3Owner.m */; };
+		B87D241BB43763FAE8AABA85D00E858A /* KS3SetGrantACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BC10EA931A28786A5CEF8F8D7C23467E /* KS3SetGrantACLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8AB88F2A8833024C077AB9E18E550C0 /* KS3PutObjectCopyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3386C2B3EC8EA5B05191E0E291761 /* KS3PutObjectCopyResponse.m */; };
+		B9246CDC87AC06702C68822DF2FA5AB7 /* KS3GetBucketLoggingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D24598031B7368AA8DD96D175C71CD /* KS3GetBucketLoggingRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BADCDDFF79384A9608E02623183A488D /* KS3BucketACLResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3A4F57006AA6BF3FC84387AA7B852 /* KS3BucketACLResult.m */; };
+		BED8CBB8DF38B73DC85AC8D281E4FFC8 /* KS3ListBucketsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC830392668618973E13F8659A79B35A /* KS3ListBucketsResponse.m */; };
+		BEF5B680F6F2202CBE569C35B7114F2C /* KS3Grant.h in Headers */ = {isa = PBXBuildFile; fileRef = 297185C1918B2C0003A97F4E833B6626 /* KS3Grant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C091A9E6F75162DCCFDEBFFFA6C4B703 /* KS3BucketNameUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B958D7CCF4DDB98DAA9220513D28DC /* KS3BucketNameUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1F98278CFF46B4208810714574AFFDE /* KS3ListPartsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E512B8CC6DE54346DC88FEA047BC0BE7 /* KS3ListPartsRequest.m */; };
+		C3D3ACA2D8C5E1F4764FA195FC520A7F /* KS3Part.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D09D7095971CE60D26406C85F550143 /* KS3Part.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C757C888B6D13C1FB75352FA525709C3 /* KS3MultipartUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = B81E00BA5364AD5A281A3F3EF5C44A06 /* KS3MultipartUpload.m */; };
+		CA5DB4FEEEBAD9C38820A446B8220576 /* KS3ResponseHeaderOverrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 6968120D1C0C0F6D8470F0C827FA702E /* KS3ResponseHeaderOverrides.m */; };
+		CAF8DEFE1387E88D71FC7EB9A08D0FC4 /* KS3AccessControlList.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EFA321949A0E62FC6BDB76642A8400 /* KS3AccessControlList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBEAE2115810B328FBBED6A1365AB469 /* KS3SetGrantACLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C365BCB3D91C1A4D1A5CC2774D8C07D /* KS3SetGrantACLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC23DAF816B4E31AD3A6969C3A71FAF7 /* KS3ListPartsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E8777A48931647FB847216DBC23277 /* KS3ListPartsRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDB8AEB883A61A5277CF6EF70243C6BA /* KS3ListObjectsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C280B556837CB16D2DC6994C4D3DB1 /* KS3ListObjectsResult.m */; };
+		CEB0FDF60C23EDBB216018F204E33AA8 /* KS3Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15FB18759C6905DB3785409184E53A /* KS3Credentials.m */; };
+		D07F392FE89823DC8539D1287A50E604 /* KS3InitiateMultipartUploadXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 81591FF89634073E58F6F1E8A249BA7D /* KS3InitiateMultipartUploadXMLParser.m */; };
+		D0DBA1376DE12F7027630E79D7562E69 /* KS3GetObjectACLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC9462441C753E8AA572CECBCD73A91 /* KS3GetObjectACLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8657A9A47CC0F7107B5F1265C3F4273 /* KS3GetACLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C64717D9B3D1533616D774268D89522 /* KS3GetACLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D873A7270EDD5B2C0A74E2E398E0310B /* KS3BucketObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D137DB36A3B664B84A67CAB817885F7A /* KS3BucketObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8838DAF3185DF40D5FE3F8252272F95 /* KS3GetObjectACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A793FDE9C9744E8AADF4BCFAFBD965B0 /* KS3GetObjectACLRequest.m */; };
+		D89E0CD1F54AF1FF978E2A4FC786C6CF /* KS3ObjectACLXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9276556B402ECCF7C588CBAD057E2C56 /* KS3ObjectACLXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9472C1D52FC2850CDC0516C26D8A97C /* KS3SetObjectGrantACLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DC58E9D7BC218687D55F59C944F29 /* KS3SetObjectGrantACLResponse.m */; };
+		D995C8CE0BB890B1AE429AD9D2FE014E /* KS3UploadPartResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F37E0A7E522BA054378BD6C09650AE41 /* KS3UploadPartResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA01AF31428CA315B52EFF26D879FFBE /* Pods-KS3SDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F7C5D91E60875CD705E6020D58937 /* Pods-KS3SDKDemo-dummy.m */; };
+		DC3CCF69B752F33411B299578357F787 /* KS3Bucket.h in Headers */ = {isa = PBXBuildFile; fileRef = A20993350E1068DFF74732F8CC7DC3B5 /* KS3Bucket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC8653D3D2D4632576C61EEE4FA013C4 /* KS3SetObjectACLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 490A32340A80C11136F9BE6802409DEF /* KS3SetObjectACLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEFCB9E9B1428861C961F1E11E496B1E /* KS3GetBucketLoggingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8AD3372DEBBE648F59104C2D09914F /* KS3GetBucketLoggingRequest.m */; };
+		E0491218B39BEBD6B267322014FC1A9E /* KS3ListBucketsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DFC9457DFDA9F41DC6EB9DEA0522 /* KS3ListBucketsRequest.m */; };
+		E335FCD7FAD611EBA7FC2AAE5B76ABC2 /* KS3GetBucketLoggingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5049AC1DA324CD105A54D89B856F5195 /* KS3GetBucketLoggingResponse.m */; };
+		E5C095313AD8E0FC49C1C68D4847AE4F /* KS3CreateBucketResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7F1954D88F1F00245219F5B49FE8CD /* KS3CreateBucketResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5F116D585E52F1B45FB645AEF957891 /* KS3ListBucketsXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6527DAB9D07EF813CA07BE9DDA4F59 /* KS3ListBucketsXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E65E6A55CC0991EB90E7C81735FE53EA /* KS3ServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEFE658148F196EC047D9A0C99D0E05 /* KS3ServiceRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC6283E482BDF45F7088468D9395C484 /* KS3AuthUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3D5BF6AB4856755464B37FA423C42D /* KS3AuthUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED46EE3427ADCE5FA2812EE617608BC0 /* KS3UploadPartRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 969CDE6514C87AD5B070FCF8A9786FAF /* KS3UploadPartRequest.m */; };
+		ED4A4C5CB75B5E74DBB01D360EE6B133 /* KS3Credentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CAD53769ECEF1DC8411745BF2CB3CD /* KS3Credentials.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F174A990A6E7A324C077FAFEA864EA4D /* KS3DeleteObjectRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 16187E42835C06E4D3E78E61B8C7B11C /* KS3DeleteObjectRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F295A910D3B26441F9C148E42E9EEA6A /* KS3CompleteMultipartUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296810E0D37B0259B9083FED728B3EB /* KS3CompleteMultipartUploadResponse.m */; };
+		F41908C75B0F0E47A42C72F8576DAA45 /* KS3ListObjectsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C0CDBEDC38700E847C7D3C33BF987C /* KS3ListObjectsRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F55750475E05F84C631F2B80F8FC5C67 /* KS3GetObjectACLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6BAD7A2B8D5AE45B9793ECC88CBD7 /* KS3GetObjectACLResponse.m */; };
+		F5E18B9B0FDA1AD0CA976A7536C4060B /* KS3CreateBucketResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E9518708AA1EFDF0F1372616457B /* KS3CreateBucketResponse.m */; };
+		FA02AC8063C6698036DC6C7C3C09F179 /* KS3PutObjectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 32924101DD769C66479227443534209D /* KS3PutObjectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC95FB1BC0D24F3A959EBF7799897320 /* KS3GetBucketLoggingResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CA192258AE5F16711A2CE8509DCEF8 /* KS3GetBucketLoggingResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCC852BCC2F642E6F951687A50758DDF /* KS3SetObjectACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A9002E62B2486F7B7FC4BCB354F98128 /* KS3SetObjectACLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1BD39F9776E9A36D610D57C411A702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F0300A55051918A100CA9281C7D8E29;
+			remoteInfo = New_Ks3SDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0023C48ECC4698037BFB02F73090C457 /* KS3Response.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Response.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Response.h; sourceTree = "<group>"; };
+		0056A660290C1ED1D5364D924C9DD500 /* KS3GetObjectACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetObjectACLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectACLRequest.h; sourceTree = "<group>"; };
+		022BF82F17BAD039E168039D7F0B68AC /* KS3ListPartsResultXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListPartsResultXMLParser.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsResultXMLParser.h; sourceTree = "<group>"; };
+		024944C9592F2A23993F50E4EA679361 /* KS3InitiateMultipartUploadResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3InitiateMultipartUploadResult.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadResult.m; sourceTree = "<group>"; };
+		0354F81B186EA80552EC7FF1ECEC963F /* KS3AbstractWebServiceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3AbstractWebServiceClient.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3AbstractWebServiceClient.h; sourceTree = "<group>"; };
+		035D61BE3E56487505D054A6EBE58728 /* KS3GetObjectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetObjectResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectResponse.h; sourceTree = "<group>"; };
+		09EDADC7FA3D5DF925AC63E7421EE757 /* KS3ListPartsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListPartsResult.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsResult.m; sourceTree = "<group>"; };
+		0A0F4B79234220ABEA420877FBDD5B72 /* KS3InitiateMultipartUploadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3InitiateMultipartUploadRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadRequest.m; sourceTree = "<group>"; };
+		0AAD78E70336E05AC06C6B7F0A417AF7 /* KS3ListPartsResultXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListPartsResultXMLParser.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsResultXMLParser.m; sourceTree = "<group>"; };
+		0AB7AB168312D14F2F7807713C917EF9 /* KS3UploadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3UploadManager.m; path = KS3YunSDK/KS3YunSDK/KSYS3/Advanced/Upload/KS3UploadManager.m; sourceTree = "<group>"; };
+		0D06DEE08CE1125765A37203B369A018 /* KS3GetACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetACLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetACLRequest.m; sourceTree = "<group>"; };
+		0D166B3C2D43FFAFCA9390E1C2668353 /* KS3ListPartsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListPartsResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsResponse.m; sourceTree = "<group>"; };
+		0D3D5BF6AB4856755464B37FA423C42D /* KS3AuthUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3AuthUtils.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3AuthUtils.h; sourceTree = "<group>"; };
+		0E8DC58E9D7BC218687D55F59C944F29 /* KS3SetObjectGrantACLResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetObjectGrantACLResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectGrantACLResponse.m; sourceTree = "<group>"; };
+		0F2080C238E5BE3EC9FB95FEDA9BC489 /* KS3CompleteMultipartUploadResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3CompleteMultipartUploadResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3CompleteMultipartUploadResponse.h; sourceTree = "<group>"; };
+		0F37C4068E601207C9A956841EB480DD /* KS3InitiateMultipartUploadXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3InitiateMultipartUploadXMLParser.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadXMLParser.h; sourceTree = "<group>"; };
+		10D4DD989E8F449AB4EC035F30073D40 /* KS3ObjectSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ObjectSummary.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ObjectSummary.h; sourceTree = "<group>"; };
+		11C6399282074FA186A8D1511CBD3613 /* KS3Owner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Owner.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3Owner.h; sourceTree = "<group>"; };
+		1334437E2C6C73B40CCA22762DAF8D47 /* KS3CompleteMultipartUploadResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3CompleteMultipartUploadResult.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3CompleteMultipartUploadResult.h; sourceTree = "<group>"; };
+		13CA192258AE5F16711A2CE8509DCEF8 /* KS3GetBucketLoggingResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetBucketLoggingResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetBucketLoggingResponse.h; sourceTree = "<group>"; };
+		15DF5DDC81C61DE0E8210508552ECFCE /* KS3AbortMultipartUploadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3AbortMultipartUploadRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3AbortMultipartUploadRequest.m; sourceTree = "<group>"; };
+		161680A8D8758206D1491AF45D5C4A87 /* New_Ks3SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "New_Ks3SDK-prefix.pch"; sourceTree = "<group>"; };
+		16187E42835C06E4D3E78E61B8C7B11C /* KS3DeleteObjectRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3DeleteObjectRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3DeleteObjectRequest.h; sourceTree = "<group>"; };
+		16312B0D4F2AC8650C793F88C75036C8 /* KS3UploadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3UploadRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3UploadRequest.m; sourceTree = "<group>"; };
+		17D24598031B7368AA8DD96D175C71CD /* KS3GetBucketLoggingRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetBucketLoggingRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetBucketLoggingRequest.h; sourceTree = "<group>"; };
+		1CD19ECA0E5D56D7EE48C96B613E681F /* KS3SetACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetACLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetACLRequest.h; sourceTree = "<group>"; };
+		1D68119140C60EC9DB07E73BCDF11F6E /* KS3CreateBucketRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3CreateBucketRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3CreateBucketRequest.m; sourceTree = "<group>"; };
+		1DC96775651601C4FF74D99759C87F89 /* KS3SetACLResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetACLResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetACLResponse.m; sourceTree = "<group>"; };
+		1EB9505E8F8C77CB195A80CE97AFB512 /* KS3BucketACLXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3BucketACLXMLParser.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3BucketACLXMLParser.h; sourceTree = "<group>"; };
+		2296810E0D37B0259B9083FED728B3EB /* KS3CompleteMultipartUploadResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3CompleteMultipartUploadResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3CompleteMultipartUploadResponse.m; sourceTree = "<group>"; };
+		2343F196A7A78EF9FB2D33322F909F3D /* KS3AbortMultipartUploadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3AbortMultipartUploadRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3AbortMultipartUploadRequest.h; sourceTree = "<group>"; };
+		24098CE5E7778CFCC007B236EA5DD514 /* KS3ListBucketsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListBucketsResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsResponse.h; sourceTree = "<group>"; };
+		254C0827BE3757D9153E59ACBF9CCA33 /* KS3PutObjectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3PutObjectResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectResponse.m; sourceTree = "<group>"; };
+		2595E22142447EFE872197BDAE2224FA /* KS3DownLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3DownLoad.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3DownLoad.m; sourceTree = "<group>"; };
+		268DA152CC6A5A9322F2EA2C6C6592F3 /* KS3Upload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Upload.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3Upload.h; sourceTree = "<group>"; };
+		28C5EB0FDD5C35A77A0F6246CF18BA49 /* Pods-KS3SDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KS3SDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		297185C1918B2C0003A97F4E833B6626 /* KS3Grant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Grant.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3Grant.h; sourceTree = "<group>"; };
+		2B19682E6FAC895C23205BB65B9ECDD2 /* KS3SetObjectACLResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetObjectACLResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectACLResponse.m; sourceTree = "<group>"; };
+		2D074F2E38853E5C235C99707AB8E196 /* KS3BucketACLXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3BucketACLXMLParser.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3BucketACLXMLParser.m; sourceTree = "<group>"; };
+		2D09D7095971CE60D26406C85F550143 /* KS3Part.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Part.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3Part.h; sourceTree = "<group>"; };
+		313D803B805EF81E0F0DE685BF3D0BBD /* KS3ListBucketsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListBucketsResult.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsResult.h; sourceTree = "<group>"; };
+		32924101DD769C66479227443534209D /* KS3PutObjectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3PutObjectResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectResponse.h; sourceTree = "<group>"; };
+		342E8120465736893C4A1240A3859F55 /* KS3GetACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetACLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetACLRequest.h; sourceTree = "<group>"; };
+		3476F7676A6FAD50B36B6D1E5665598E /* KS3MD5Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3MD5Util.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3MD5Util.m; sourceTree = "<group>"; };
+		3A340B905A131CFE73DDA8D65CC267A6 /* KS3PutObjectCopyRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3PutObjectCopyRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectCopyRequest.h; sourceTree = "<group>"; };
+		3D07E347B4CBC8064F36A072C7DD5899 /* libNew_Ks3SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNew_Ks3SDK.a; path = libNew_Ks3SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7F1954D88F1F00245219F5B49FE8CD /* KS3CreateBucketResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3CreateBucketResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3CreateBucketResponse.h; sourceTree = "<group>"; };
+		4082227287560AC70182E3D99342FCC9 /* KS3BucketObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3BucketObject.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3BucketObject.m; sourceTree = "<group>"; };
+		419C404FD5F3B8265FB0AFB6443E792F /* KS3SetBucketLoggingRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetBucketLoggingRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetBucketLoggingRequest.h; sourceTree = "<group>"; };
+		4384EEC63B876236F3886E15162BCB41 /* KS3SetObjectGrantACLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetObjectGrantACLResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectGrantACLResponse.h; sourceTree = "<group>"; };
+		463C1FA63F49C4BFB730168FF49BECCA /* KS3AbstractPutRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3AbstractPutRequest.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3AbstractPutRequest.m; sourceTree = "<group>"; };
+		4898B10B339C4B170DEB16A4EB51CE94 /* KS3UploadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3UploadRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3UploadRequest.h; sourceTree = "<group>"; };
+		490A32340A80C11136F9BE6802409DEF /* KS3SetObjectACLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetObjectACLResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectACLResponse.h; sourceTree = "<group>"; };
+		4A942469BF6AA5EBFCCCF0FC41D5E506 /* KS3PutObjectCopyRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3PutObjectCopyRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectCopyRequest.m; sourceTree = "<group>"; };
+		4B369B35B98852E243BFC9E2BDD08AE7 /* KS3MultipartUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3MultipartUpload.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3MultipartUpload.h; sourceTree = "<group>"; };
+		4B4999FE0A4A12C13C7F615931C5FF2F /* KS3AccessControlList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3AccessControlList.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3AccessControlList.m; sourceTree = "<group>"; };
+		501BC9822F52685A9B9276EACFEF8C6D /* KS3Part.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Part.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3Part.m; sourceTree = "<group>"; };
+		5049AC1DA324CD105A54D89B856F5195 /* KS3GetBucketLoggingResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetBucketLoggingResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetBucketLoggingResponse.m; sourceTree = "<group>"; };
+		50B32689861DBD33E057FCB6BFBD9A0D /* KS3InitiateMultipartUploadResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3InitiateMultipartUploadResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadResponse.h; sourceTree = "<group>"; };
+		51C555027045046E95C6C28EB454CBD8 /* KS3SetBucketLoggingResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetBucketLoggingResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetBucketLoggingResponse.m; sourceTree = "<group>"; };
+		51F6B5D8FDD9A62BFBC1AC24C3547C7F /* libPods-KS3SDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KS3SDKDemo.a"; path = "libPods-KS3SDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521E29DC043927F362F78749A168FB82 /* KS3CreateBucketRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3CreateBucketRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3CreateBucketRequest.h; sourceTree = "<group>"; };
+		53E02AF0762F833C406B2C3E7043CF38 /* KS3ClientException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ClientException.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ClientException.m; sourceTree = "<group>"; };
+		56365D578C1A68DFBACB96447A9F2191 /* KS3WebServiceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3WebServiceClient.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3WebServiceClient.h; sourceTree = "<group>"; };
+		58D5A68ACB5A725E4289F999D7FDF062 /* KS3UploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3UploadManager.h; path = KS3YunSDK/KS3YunSDK/KSYS3/Advanced/Upload/KS3UploadManager.h; sourceTree = "<group>"; };
+		597A66F8A706D538EF6D1492D58B456C /* KS3InitiateMultipartUploadResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3InitiateMultipartUploadResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadResponse.m; sourceTree = "<group>"; };
+		59BF3469DDBA336E1630F5180C4363C1 /* KS3ServiceResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ServiceResponse.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ServiceResponse.m; sourceTree = "<group>"; };
+		5A15FB18759C6905DB3785409184E53A /* KS3Credentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Credentials.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Credentials.m; sourceTree = "<group>"; };
+		5A2CA042633054D2AD41C90FE7E134A9 /* KS3ServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ServiceRequest.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ServiceRequest.m; sourceTree = "<group>"; };
+		5B0A242602E780CC58B05E5698E4E0C9 /* Pods-KS3SDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KS3SDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C34C2D2411DB741F94E6A029FCA53B9 /* KS3CompleteMultipartUploadResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3CompleteMultipartUploadResult.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3CompleteMultipartUploadResult.m; sourceTree = "<group>"; };
+		5D2ABAA26F2990653805EE1135790E3F /* KS3ListBucketsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListBucketsResult.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsResult.m; sourceTree = "<group>"; };
+		5DF55B1BEDA49F46186AEC61C218429D /* KS3SetGrantACLResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetGrantACLResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetGrantACLResponse.m; sourceTree = "<group>"; };
+		5ED2B8107BAF7896A631E861F4E2C866 /* KS3InitiateMultipartUploadResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3InitiateMultipartUploadResult.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadResult.h; sourceTree = "<group>"; };
+		61ECE0681A694BACB40E8AEF51EA5772 /* KS3AbstractWebServiceClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3AbstractWebServiceClient.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3AbstractWebServiceClient.m; sourceTree = "<group>"; };
+		634F7C5D91E60875CD705E6020D58937 /* Pods-KS3SDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KS3SDKDemo-dummy.m"; sourceTree = "<group>"; };
+		6372C0A52ABC3BF98AA06BEAB19550AB /* KS3SetACLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetACLResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetACLResponse.h; sourceTree = "<group>"; };
+		6473B004E80415645CD65C1CBE6F5743 /* KS3GetObjectRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetObjectRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectRequest.h; sourceTree = "<group>"; };
+		6968120D1C0C0F6D8470F0C827FA702E /* KS3ResponseHeaderOverrides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ResponseHeaderOverrides.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3ResponseHeaderOverrides.m; sourceTree = "<group>"; };
+		6C64717D9B3D1533616D774268D89522 /* KS3GetACLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetACLResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetACLResponse.h; sourceTree = "<group>"; };
+		6D035D312886E3C0D74BF9E9549BB94C /* KS3HeadObjectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3HeadObjectResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3HeadObjectResponse.m; sourceTree = "<group>"; };
+		6DC09951964F2CDF4ADB252CEB8E49BD /* KS3ListPartsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListPartsResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsResponse.h; sourceTree = "<group>"; };
+		70A5E9518708AA1EFDF0F1372616457B /* KS3CreateBucketResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3CreateBucketResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3CreateBucketResponse.m; sourceTree = "<group>"; };
+		73E4833BFED78E94BA49808EE25F5F43 /* KS3UploadPartResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3UploadPartResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3UploadPartResponse.m; sourceTree = "<group>"; };
+		74B958D7CCF4DDB98DAA9220513D28DC /* KS3BucketNameUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3BucketNameUtilities.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3BucketNameUtilities.h; sourceTree = "<group>"; };
+		7634CC08FA09CE512B14E44EBE217C44 /* New_Ks3SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = New_Ks3SDK.debug.xcconfig; sourceTree = "<group>"; };
+		76E30650D6B04A8206DC5247205F3E6A /* KS3GrantAccessControlList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GrantAccessControlList.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3GrantAccessControlList.m; sourceTree = "<group>"; };
+		79CAD53769ECEF1DC8411745BF2CB3CD /* KS3Credentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Credentials.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Credentials.h; sourceTree = "<group>"; };
+		7AAC8E39B0BB9394ACE4E32774F21EF7 /* KS3DownLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3DownLoad.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3DownLoad.h; sourceTree = "<group>"; };
+		7B0D5EDFD12B9CBBE92BF3311D1EB052 /* KS3Upload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Upload.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3Upload.m; sourceTree = "<group>"; };
+		7C365BCB3D91C1A4D1A5CC2774D8C07D /* KS3SetGrantACLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetGrantACLResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetGrantACLResponse.h; sourceTree = "<group>"; };
+		7C5FC3F951A7DB35336923AA07043B58 /* KS3GetObjectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetObjectResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectResponse.m; sourceTree = "<group>"; };
+		7CB05D3FCD4434EFF749401A267E5145 /* KS3HeadBucketRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3HeadBucketRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3HeadBucketRequest.h; sourceTree = "<group>"; };
+		7E06890B1F503F54A4C8754F099D62FE /* KS3DeleteBucketRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3DeleteBucketRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3DeleteBucketRequest.h; sourceTree = "<group>"; };
+		7FD7DFC9457DFDA9F41DC6EB9DEA0522 /* KS3ListBucketsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListBucketsRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsRequest.m; sourceTree = "<group>"; };
+		80E445223D59B0773C232D2B6491E681 /* KS3HeadBucketResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3HeadBucketResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3HeadBucketResponse.m; sourceTree = "<group>"; };
+		813097EDBB89AC1422FA36E25B9249D1 /* KS3ResponseHeaderOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ResponseHeaderOverrides.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3ResponseHeaderOverrides.h; sourceTree = "<group>"; };
+		81591FF89634073E58F6F1E8A249BA7D /* KS3InitiateMultipartUploadXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3InitiateMultipartUploadXMLParser.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadXMLParser.m; sourceTree = "<group>"; };
+		82D813CC02F134F4CCB18E8CB378934C /* KS3ListObjectsXMLPrarser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListObjectsXMLPrarser.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsXMLPrarser.m; sourceTree = "<group>"; };
+		83041F3C09AA98EBA30A6A4B749721EE /* KS3SetGrantACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetGrantACLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetGrantACLRequest.m; sourceTree = "<group>"; };
+		86839F1F398801B26256DC64A03EABD4 /* KS3Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Request.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Request.h; sourceTree = "<group>"; };
+		89DABC84332D0D75C64016CE4442C42F /* KS3AbortMultipartUploadResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3AbortMultipartUploadResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3AbortMultipartUploadResponse.m; sourceTree = "<group>"; };
+		8BA5DD4378B7A759D9056FAFBE4C1DCC /* KS3SetACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetACLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetACLRequest.m; sourceTree = "<group>"; };
+		8D9D5378D12B81C910D27C1D0D1EE119 /* KS3ListObjectsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListObjectsResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsResponse.h; sourceTree = "<group>"; };
+		9276556B402ECCF7C588CBAD057E2C56 /* KS3ObjectACLXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ObjectACLXMLParser.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ObjectACLXMLParser.h; sourceTree = "<group>"; };
+		9351DCCC6B33618BACFE10A48EFC419A /* Pods-KS3SDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KS3SDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		943157FF10A2036CE867E83BCB555BD2 /* KS3BucketACLResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3BucketACLResult.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3BucketACLResult.h; sourceTree = "<group>"; };
+		959AC73CCE589B224EEF8E8555D2AF0C /* KS3HeadBucketRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3HeadBucketRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3HeadBucketRequest.m; sourceTree = "<group>"; };
+		95CDF9AAAD7C750841DD02FF45D0D419 /* New_Ks3SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "New_Ks3SDK-dummy.m"; sourceTree = "<group>"; };
+		96097031DAB8B67785041D47F958AFCB /* KS3SetBucketLoggingRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetBucketLoggingRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetBucketLoggingRequest.m; sourceTree = "<group>"; };
+		969CDE6514C87AD5B070FCF8A9786FAF /* KS3UploadPartRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3UploadPartRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3UploadPartRequest.m; sourceTree = "<group>"; };
+		972C12675B9989D7FAD927A777E45FFF /* KS3GrantAccessControlList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GrantAccessControlList.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3GrantAccessControlList.h; sourceTree = "<group>"; };
+		97E5C64B5BA109BA166B63064AFDC47B /* KS3ListBucketsXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListBucketsXMLParser.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsXMLParser.m; sourceTree = "<group>"; };
+		99E81109EC5ACA8276C84CEDFE2F01A1 /* KS3Grant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Grant.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3Grant.m; sourceTree = "<group>"; };
+		9A9F759FC5F0D0406C2A46B36D7A24D9 /* KS3Bucket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Bucket.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3Bucket.m; sourceTree = "<group>"; };
+		9AF68E406AE374B227E603832CFAEC2B /* KS3ListBucketsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListBucketsRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsRequest.h; sourceTree = "<group>"; };
+		9B96505CD6EBEF3075617B0CDF360A6A /* KS3ListObjectsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListObjectsResult.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsResult.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC9462441C753E8AA572CECBCD73A91 /* KS3GetObjectACLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3GetObjectACLResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectACLResponse.h; sourceTree = "<group>"; };
+		9FC3A4F57006AA6BF3FC84387AA7B852 /* KS3BucketACLResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3BucketACLResult.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3BucketACLResult.m; sourceTree = "<group>"; };
+		A06371F93B649A1724B6EE7A23E5480D /* KS3GetObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetObjectRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectRequest.m; sourceTree = "<group>"; };
+		A20993350E1068DFF74732F8CC7DC3B5 /* KS3Bucket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Bucket.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3Bucket.h; sourceTree = "<group>"; };
+		A2D77608E7BEF8D310E9BE71FA02ADD7 /* KS3WebServiceClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3WebServiceClient.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3WebServiceClient.m; sourceTree = "<group>"; };
+		A3865BFBCCE9AEE0B0D2C10C3050B20E /* KS3ListObjectsXMLPrarser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListObjectsXMLPrarser.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsXMLPrarser.h; sourceTree = "<group>"; };
+		A75C804196D3F034DA963503A7DCC30A /* KS3Owner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Owner.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3Owner.m; sourceTree = "<group>"; };
+		A793FDE9C9744E8AADF4BCFAFBD965B0 /* KS3GetObjectACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetObjectACLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectACLRequest.m; sourceTree = "<group>"; };
+		A9002E62B2486F7B7FC4BCB354F98128 /* KS3SetObjectACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetObjectACLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectACLRequest.h; sourceTree = "<group>"; };
+		A900356F78F08015456041E0B67C6EFD /* KS3AbortMultipartUploadResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3AbortMultipartUploadResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3AbortMultipartUploadResponse.h; sourceTree = "<group>"; };
+		A9283FB2D9E29EDE52688F4A70B27977 /* KS3DeleteObjectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3DeleteObjectResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3DeleteObjectResponse.m; sourceTree = "<group>"; };
+		ACE76ED3A3A47076648AB73BA7F320F4 /* KS3HeadObjectRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3HeadObjectRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3HeadObjectRequest.h; sourceTree = "<group>"; };
+		AE5880AFF75819FC27258F283C74A36C /* KS3ServiceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ServiceResponse.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ServiceResponse.h; sourceTree = "<group>"; };
+		B0EFA321949A0E62FC6BDB76642A8400 /* KS3AccessControlList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3AccessControlList.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/KS3AccessControlList.h; sourceTree = "<group>"; };
+		B2CBECDBF8AAF66E325B17B6DF11C1EF /* KS3PutObjectRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3PutObjectRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectRequest.h; sourceTree = "<group>"; };
+		B3B82F517040482F075ADF6FC2ED5F5A /* KS3SetObjectGrantACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetObjectGrantACLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectGrantACLRequest.h; sourceTree = "<group>"; };
+		B81E00BA5364AD5A281A3F3EF5C44A06 /* KS3MultipartUpload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3MultipartUpload.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3MultipartUpload.m; sourceTree = "<group>"; };
+		BB8AD3372DEBBE648F59104C2D09914F /* KS3GetBucketLoggingRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetBucketLoggingRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetBucketLoggingRequest.m; sourceTree = "<group>"; };
+		BC10EA931A28786A5CEF8F8D7C23467E /* KS3SetGrantACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetGrantACLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetGrantACLRequest.h; sourceTree = "<group>"; };
+		BD6527DAB9D07EF813CA07BE9DDA4F59 /* KS3ListBucketsXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListBucketsXMLParser.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsXMLParser.h; sourceTree = "<group>"; };
+		BDEFE658148F196EC047D9A0C99D0E05 /* KS3ServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ServiceRequest.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ServiceRequest.h; sourceTree = "<group>"; };
+		C0962188A35328A66B70BCE5EA716AC3 /* KS3DeleteBucketResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3DeleteBucketResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3DeleteBucketResponse.h; sourceTree = "<group>"; };
+		C0C280B556837CB16D2DC6994C4D3DB1 /* KS3ListObjectsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListObjectsResult.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsResult.m; sourceTree = "<group>"; };
+		C153310FD1D81F54B58413FB93DB0569 /* KS3Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Constants.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Constants.h; sourceTree = "<group>"; };
+		C29C91095B95386CC54479F5371BA2C9 /* New_Ks3SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = New_Ks3SDK.release.xcconfig; sourceTree = "<group>"; };
+		C391D504B66C23CE1E831719703785F6 /* KS3SetObjectACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetObjectACLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectACLRequest.m; sourceTree = "<group>"; };
+		C4E28836EBA7DE220A363CADA0E3C136 /* KS3HeadObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3HeadObjectRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3HeadObjectRequest.m; sourceTree = "<group>"; };
+		C5BD65C5ED1C810E34C613BD2248170B /* KS3SDKUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SDKUtil.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3SDKUtil.h; sourceTree = "<group>"; };
+		C70846BC7D6339AC37F184FF06FD230A /* KS3URLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3URLRequest.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3URLRequest.h; sourceTree = "<group>"; };
+		C76AD05E2DFAE52AA8B5890310F7ECF0 /* KS3DeleteBucketRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3DeleteBucketRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3DeleteBucketRequest.m; sourceTree = "<group>"; };
+		C7B14F73C4008A03343A1E2823B8E233 /* KS3Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3Client.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KS3Client.h; sourceTree = "<group>"; };
+		C83C59F856D31272E899EF1626C3ADEF /* KS3YunSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3YunSDK.h; path = KS3YunSDK/KS3YunSDK.h; sourceTree = "<group>"; };
+		C8D89180992D98A2C409DF357452A49B /* KS3ListObjectsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListObjectsRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsRequest.m; sourceTree = "<group>"; };
+		C9CECBF33F06A0C95A47B816BF3CA1A0 /* KS3UploadPartRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3UploadPartRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3UploadPartRequest.h; sourceTree = "<group>"; };
+		C9E8777A48931647FB847216DBC23277 /* KS3ListPartsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListPartsRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsRequest.h; sourceTree = "<group>"; };
+		CB9B14B3E4A1BBABC0BAE063D67E8CFF /* KS3BucketNameUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3BucketNameUtilities.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3BucketNameUtilities.m; sourceTree = "<group>"; };
+		CDC04D9142C469BBB5874E239E3937BB /* KS3CompleteMultipartUploadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3CompleteMultipartUploadRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3CompleteMultipartUploadRequest.m; sourceTree = "<group>"; };
+		CEF373E126E1936C137D015FCF920B84 /* KS3ClientException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ClientException.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ClientException.h; sourceTree = "<group>"; };
+		CF676F29ACBA000AF1C36857325FB5B4 /* KS3GetACLResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetACLResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3GetACLResponse.m; sourceTree = "<group>"; };
+		D1043204A54A19F8E98016A76083B22E /* KS3Response.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Response.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Response.m; sourceTree = "<group>"; };
+		D108BC741E3CE20DCDD3C8B7A50608B3 /* KS3HeadBucketResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3HeadBucketResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3HeadBucketResponse.h; sourceTree = "<group>"; };
+		D137DB36A3B664B84A67CAB817885F7A /* KS3BucketObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3BucketObject.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3BucketObject.h; sourceTree = "<group>"; };
+		D24A34A1CDF1C494E64DFC6A3CFA1C03 /* KS3AuthUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3AuthUtils.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3AuthUtils.m; sourceTree = "<group>"; };
+		D7A47B8924B813952FB6FF8FCF30997F /* KS3SetObjectGrantACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SetObjectGrantACLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3SetObjectGrantACLRequest.m; sourceTree = "<group>"; };
+		D8348C117B74E0F4A0C12686E1A59B2E /* KS3Client.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Client.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KS3Client.m; sourceTree = "<group>"; };
+		DC7FC4FD9056C1528A33B47C387E1C5B /* Pods-KS3SDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KS3SDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DCE6708A6CD065F34072F53AC2A3FE47 /* KS3ObjectACLXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ObjectACLXMLParser.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ObjectACLXMLParser.m; sourceTree = "<group>"; };
+		DD0E9867BEF89F9AB60C2CB0B121E7B0 /* KS3ErrorHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ErrorHandler.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ErrorHandler.m; sourceTree = "<group>"; };
+		E00F079E62AE9860E4A7247E47C9979D /* KS3AbstractPutRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3AbstractPutRequest.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3AbstractPutRequest.h; sourceTree = "<group>"; };
+		E106ACF73C68A361A2536A05668F308D /* KS3Request.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3Request.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3Request.m; sourceTree = "<group>"; };
+		E1DC05CDCBB645B8DD49DD0AC037D5E5 /* KS3SetBucketLoggingResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3SetBucketLoggingResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3SetBucketLoggingResponse.h; sourceTree = "<group>"; };
+		E258A061F4701FEB646AADF5596AFA3A /* KS3SDKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3SDKUtil.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3SDKUtil.m; sourceTree = "<group>"; };
+		E28399F888D04B864A996E7A10C41364 /* KS3DeleteObjectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3DeleteObjectResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3DeleteObjectResponse.h; sourceTree = "<group>"; };
+		E39B70398D8D37D47E6BA5B47AF4DEDF /* KS3CompleteMultipartUploadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3CompleteMultipartUploadRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3CompleteMultipartUploadRequest.h; sourceTree = "<group>"; };
+		E4097206E9F1BE84508B75D914232E03 /* KS3MD5Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3MD5Util.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3MD5Util.h; sourceTree = "<group>"; };
+		E4C0CDBEDC38700E847C7D3C33BF987C /* KS3ListObjectsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListObjectsRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsRequest.h; sourceTree = "<group>"; };
+		E512B8CC6DE54346DC88FEA047BC0BE7 /* KS3ListPartsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListPartsRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsRequest.m; sourceTree = "<group>"; };
+		E6B6BAD7A2B8D5AE45B9793ECC88CBD7 /* KS3GetObjectACLResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3GetObjectACLResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3GetObjectACLResponse.m; sourceTree = "<group>"; };
+		E83E505DBD47FA1CE6A128AA3E887FDE /* KS3ListObjectsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListObjectsResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ListObjectsResponse.m; sourceTree = "<group>"; };
+		E9AFDBB5108B8C5A50988F81825D1038 /* KS3DeleteBucketResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3DeleteBucketResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3DeleteBucketResponse.m; sourceTree = "<group>"; };
+		EE6780B3D812297480A08D3C57F422CA /* KS3HeadObjectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3HeadObjectResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3HeadObjectResponse.h; sourceTree = "<group>"; };
+		F1080780C7A6D3C59DDA6FE908FA60AD /* KS3URLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3URLRequest.m; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3URLRequest.m; sourceTree = "<group>"; };
+		F37E0A7E522BA054378BD6C09650AE41 /* KS3UploadPartResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3UploadPartResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3UploadPartResponse.h; sourceTree = "<group>"; };
+		F55945963774FFD85A99745645651B50 /* KS3PutObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3PutObjectRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectRequest.m; sourceTree = "<group>"; };
+		F916EB2A792AEC43CCA0DCC6E39FDD50 /* KS3PutObjectCopyResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3PutObjectCopyResponse.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectCopyResponse.h; sourceTree = "<group>"; };
+		F9B172DDE3E09708DDB68C59FD657C82 /* KS3DeleteObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3DeleteObjectRequest.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3DeleteObjectRequest.m; sourceTree = "<group>"; };
+		F9E3386C2B3EC8EA5B05191E0E291761 /* KS3PutObjectCopyResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3PutObjectCopyResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3PutObjectCopyResponse.m; sourceTree = "<group>"; };
+		FBF585E1A7A227DBCFBB259BEC20A6B2 /* KS3ListPartsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ListPartsResult.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3ListPartsResult.h; sourceTree = "<group>"; };
+		FC0D5512EEED9567D236CAD1A63F2502 /* KS3ObjectSummary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ObjectSummary.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Bucket/KS3ObjectSummary.m; sourceTree = "<group>"; };
+		FC830392668618973E13F8659A79B35A /* KS3ListBucketsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KS3ListBucketsResponse.m; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Service/KS3ListBucketsResponse.m; sourceTree = "<group>"; };
+		FD38EFA3A01FD36E81B68D8988EEDA39 /* KS3ErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3ErrorHandler.h; path = KS3YunSDK/KS3YunSDK/KSYCore.RunTime/KS3ErrorHandler.h; sourceTree = "<group>"; };
+		FE076CA67ED504D152AF75EF450AF7E4 /* KS3InitiateMultipartUploadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KS3InitiateMultipartUploadRequest.h; path = KS3YunSDK/KS3YunSDK/KSYS3/KSYModel/Object/KS3InitiateMultipartUploadRequest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D9248403208641A4F2036C9E5A3645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15E56CCA61117EEB3F1DA0A52C6B560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B5095F51FB8825403E55A4A512076C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D07E347B4CBC8064F36A072C7DD5899 /* libNew_Ks3SDK.a */,
+				51F6B5D8FDD9A62BFBC1AC24C3547C7F /* libPods-KS3SDKDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25682841BEC0164D010DCCDC4371CE3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CDF9AAAD7C750841DD02FF45D0D419 /* New_Ks3SDK-dummy.m */,
+				161680A8D8758206D1491AF45D5C4A87 /* New_Ks3SDK-prefix.pch */,
+				7634CC08FA09CE512B14E44EBE217C44 /* New_Ks3SDK.debug.xcconfig */,
+				C29C91095B95386CC54479F5371BA2C9 /* New_Ks3SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/New_Ks3SDK";
+			sourceTree = "<group>";
+		};
+		AE1E073AEAE2079F62A0C2DC9BC19CB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF218DCBDD29C8B89C6C0B972094A23 /* New_Ks3SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				AE1E073AEAE2079F62A0C2DC9BC19CB2 /* Pods */,
+				07B5095F51FB8825403E55A4A512076C /* Products */,
+				F932F715E808B243FD8C37A9A95F4680 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF218DCBDD29C8B89C6C0B972094A23 /* New_Ks3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2343F196A7A78EF9FB2D33322F909F3D /* KS3AbortMultipartUploadRequest.h */,
+				15DF5DDC81C61DE0E8210508552ECFCE /* KS3AbortMultipartUploadRequest.m */,
+				A900356F78F08015456041E0B67C6EFD /* KS3AbortMultipartUploadResponse.h */,
+				89DABC84332D0D75C64016CE4442C42F /* KS3AbortMultipartUploadResponse.m */,
+				E00F079E62AE9860E4A7247E47C9979D /* KS3AbstractPutRequest.h */,
+				463C1FA63F49C4BFB730168FF49BECCA /* KS3AbstractPutRequest.m */,
+				0354F81B186EA80552EC7FF1ECEC963F /* KS3AbstractWebServiceClient.h */,
+				61ECE0681A694BACB40E8AEF51EA5772 /* KS3AbstractWebServiceClient.m */,
+				B0EFA321949A0E62FC6BDB76642A8400 /* KS3AccessControlList.h */,
+				4B4999FE0A4A12C13C7F615931C5FF2F /* KS3AccessControlList.m */,
+				0D3D5BF6AB4856755464B37FA423C42D /* KS3AuthUtils.h */,
+				D24A34A1CDF1C494E64DFC6A3CFA1C03 /* KS3AuthUtils.m */,
+				A20993350E1068DFF74732F8CC7DC3B5 /* KS3Bucket.h */,
+				9A9F759FC5F0D0406C2A46B36D7A24D9 /* KS3Bucket.m */,
+				943157FF10A2036CE867E83BCB555BD2 /* KS3BucketACLResult.h */,
+				9FC3A4F57006AA6BF3FC84387AA7B852 /* KS3BucketACLResult.m */,
+				1EB9505E8F8C77CB195A80CE97AFB512 /* KS3BucketACLXMLParser.h */,
+				2D074F2E38853E5C235C99707AB8E196 /* KS3BucketACLXMLParser.m */,
+				74B958D7CCF4DDB98DAA9220513D28DC /* KS3BucketNameUtilities.h */,
+				CB9B14B3E4A1BBABC0BAE063D67E8CFF /* KS3BucketNameUtilities.m */,
+				D137DB36A3B664B84A67CAB817885F7A /* KS3BucketObject.h */,
+				4082227287560AC70182E3D99342FCC9 /* KS3BucketObject.m */,
+				C7B14F73C4008A03343A1E2823B8E233 /* KS3Client.h */,
+				D8348C117B74E0F4A0C12686E1A59B2E /* KS3Client.m */,
+				CEF373E126E1936C137D015FCF920B84 /* KS3ClientException.h */,
+				53E02AF0762F833C406B2C3E7043CF38 /* KS3ClientException.m */,
+				E39B70398D8D37D47E6BA5B47AF4DEDF /* KS3CompleteMultipartUploadRequest.h */,
+				CDC04D9142C469BBB5874E239E3937BB /* KS3CompleteMultipartUploadRequest.m */,
+				0F2080C238E5BE3EC9FB95FEDA9BC489 /* KS3CompleteMultipartUploadResponse.h */,
+				2296810E0D37B0259B9083FED728B3EB /* KS3CompleteMultipartUploadResponse.m */,
+				1334437E2C6C73B40CCA22762DAF8D47 /* KS3CompleteMultipartUploadResult.h */,
+				5C34C2D2411DB741F94E6A029FCA53B9 /* KS3CompleteMultipartUploadResult.m */,
+				C153310FD1D81F54B58413FB93DB0569 /* KS3Constants.h */,
+				521E29DC043927F362F78749A168FB82 /* KS3CreateBucketRequest.h */,
+				1D68119140C60EC9DB07E73BCDF11F6E /* KS3CreateBucketRequest.m */,
+				3D7F1954D88F1F00245219F5B49FE8CD /* KS3CreateBucketResponse.h */,
+				70A5E9518708AA1EFDF0F1372616457B /* KS3CreateBucketResponse.m */,
+				79CAD53769ECEF1DC8411745BF2CB3CD /* KS3Credentials.h */,
+				5A15FB18759C6905DB3785409184E53A /* KS3Credentials.m */,
+				7E06890B1F503F54A4C8754F099D62FE /* KS3DeleteBucketRequest.h */,
+				C76AD05E2DFAE52AA8B5890310F7ECF0 /* KS3DeleteBucketRequest.m */,
+				C0962188A35328A66B70BCE5EA716AC3 /* KS3DeleteBucketResponse.h */,
+				E9AFDBB5108B8C5A50988F81825D1038 /* KS3DeleteBucketResponse.m */,
+				16187E42835C06E4D3E78E61B8C7B11C /* KS3DeleteObjectRequest.h */,
+				F9B172DDE3E09708DDB68C59FD657C82 /* KS3DeleteObjectRequest.m */,
+				E28399F888D04B864A996E7A10C41364 /* KS3DeleteObjectResponse.h */,
+				A9283FB2D9E29EDE52688F4A70B27977 /* KS3DeleteObjectResponse.m */,
+				7AAC8E39B0BB9394ACE4E32774F21EF7 /* KS3DownLoad.h */,
+				2595E22142447EFE872197BDAE2224FA /* KS3DownLoad.m */,
+				FD38EFA3A01FD36E81B68D8988EEDA39 /* KS3ErrorHandler.h */,
+				DD0E9867BEF89F9AB60C2CB0B121E7B0 /* KS3ErrorHandler.m */,
+				342E8120465736893C4A1240A3859F55 /* KS3GetACLRequest.h */,
+				0D06DEE08CE1125765A37203B369A018 /* KS3GetACLRequest.m */,
+				6C64717D9B3D1533616D774268D89522 /* KS3GetACLResponse.h */,
+				CF676F29ACBA000AF1C36857325FB5B4 /* KS3GetACLResponse.m */,
+				17D24598031B7368AA8DD96D175C71CD /* KS3GetBucketLoggingRequest.h */,
+				BB8AD3372DEBBE648F59104C2D09914F /* KS3GetBucketLoggingRequest.m */,
+				13CA192258AE5F16711A2CE8509DCEF8 /* KS3GetBucketLoggingResponse.h */,
+				5049AC1DA324CD105A54D89B856F5195 /* KS3GetBucketLoggingResponse.m */,
+				0056A660290C1ED1D5364D924C9DD500 /* KS3GetObjectACLRequest.h */,
+				A793FDE9C9744E8AADF4BCFAFBD965B0 /* KS3GetObjectACLRequest.m */,
+				9DC9462441C753E8AA572CECBCD73A91 /* KS3GetObjectACLResponse.h */,
+				E6B6BAD7A2B8D5AE45B9793ECC88CBD7 /* KS3GetObjectACLResponse.m */,
+				6473B004E80415645CD65C1CBE6F5743 /* KS3GetObjectRequest.h */,
+				A06371F93B649A1724B6EE7A23E5480D /* KS3GetObjectRequest.m */,
+				035D61BE3E56487505D054A6EBE58728 /* KS3GetObjectResponse.h */,
+				7C5FC3F951A7DB35336923AA07043B58 /* KS3GetObjectResponse.m */,
+				297185C1918B2C0003A97F4E833B6626 /* KS3Grant.h */,
+				99E81109EC5ACA8276C84CEDFE2F01A1 /* KS3Grant.m */,
+				972C12675B9989D7FAD927A777E45FFF /* KS3GrantAccessControlList.h */,
+				76E30650D6B04A8206DC5247205F3E6A /* KS3GrantAccessControlList.m */,
+				7CB05D3FCD4434EFF749401A267E5145 /* KS3HeadBucketRequest.h */,
+				959AC73CCE589B224EEF8E8555D2AF0C /* KS3HeadBucketRequest.m */,
+				D108BC741E3CE20DCDD3C8B7A50608B3 /* KS3HeadBucketResponse.h */,
+				80E445223D59B0773C232D2B6491E681 /* KS3HeadBucketResponse.m */,
+				ACE76ED3A3A47076648AB73BA7F320F4 /* KS3HeadObjectRequest.h */,
+				C4E28836EBA7DE220A363CADA0E3C136 /* KS3HeadObjectRequest.m */,
+				EE6780B3D812297480A08D3C57F422CA /* KS3HeadObjectResponse.h */,
+				6D035D312886E3C0D74BF9E9549BB94C /* KS3HeadObjectResponse.m */,
+				FE076CA67ED504D152AF75EF450AF7E4 /* KS3InitiateMultipartUploadRequest.h */,
+				0A0F4B79234220ABEA420877FBDD5B72 /* KS3InitiateMultipartUploadRequest.m */,
+				50B32689861DBD33E057FCB6BFBD9A0D /* KS3InitiateMultipartUploadResponse.h */,
+				597A66F8A706D538EF6D1492D58B456C /* KS3InitiateMultipartUploadResponse.m */,
+				5ED2B8107BAF7896A631E861F4E2C866 /* KS3InitiateMultipartUploadResult.h */,
+				024944C9592F2A23993F50E4EA679361 /* KS3InitiateMultipartUploadResult.m */,
+				0F37C4068E601207C9A956841EB480DD /* KS3InitiateMultipartUploadXMLParser.h */,
+				81591FF89634073E58F6F1E8A249BA7D /* KS3InitiateMultipartUploadXMLParser.m */,
+				9AF68E406AE374B227E603832CFAEC2B /* KS3ListBucketsRequest.h */,
+				7FD7DFC9457DFDA9F41DC6EB9DEA0522 /* KS3ListBucketsRequest.m */,
+				24098CE5E7778CFCC007B236EA5DD514 /* KS3ListBucketsResponse.h */,
+				FC830392668618973E13F8659A79B35A /* KS3ListBucketsResponse.m */,
+				313D803B805EF81E0F0DE685BF3D0BBD /* KS3ListBucketsResult.h */,
+				5D2ABAA26F2990653805EE1135790E3F /* KS3ListBucketsResult.m */,
+				BD6527DAB9D07EF813CA07BE9DDA4F59 /* KS3ListBucketsXMLParser.h */,
+				97E5C64B5BA109BA166B63064AFDC47B /* KS3ListBucketsXMLParser.m */,
+				E4C0CDBEDC38700E847C7D3C33BF987C /* KS3ListObjectsRequest.h */,
+				C8D89180992D98A2C409DF357452A49B /* KS3ListObjectsRequest.m */,
+				8D9D5378D12B81C910D27C1D0D1EE119 /* KS3ListObjectsResponse.h */,
+				E83E505DBD47FA1CE6A128AA3E887FDE /* KS3ListObjectsResponse.m */,
+				9B96505CD6EBEF3075617B0CDF360A6A /* KS3ListObjectsResult.h */,
+				C0C280B556837CB16D2DC6994C4D3DB1 /* KS3ListObjectsResult.m */,
+				A3865BFBCCE9AEE0B0D2C10C3050B20E /* KS3ListObjectsXMLPrarser.h */,
+				82D813CC02F134F4CCB18E8CB378934C /* KS3ListObjectsXMLPrarser.m */,
+				C9E8777A48931647FB847216DBC23277 /* KS3ListPartsRequest.h */,
+				E512B8CC6DE54346DC88FEA047BC0BE7 /* KS3ListPartsRequest.m */,
+				6DC09951964F2CDF4ADB252CEB8E49BD /* KS3ListPartsResponse.h */,
+				0D166B3C2D43FFAFCA9390E1C2668353 /* KS3ListPartsResponse.m */,
+				FBF585E1A7A227DBCFBB259BEC20A6B2 /* KS3ListPartsResult.h */,
+				09EDADC7FA3D5DF925AC63E7421EE757 /* KS3ListPartsResult.m */,
+				022BF82F17BAD039E168039D7F0B68AC /* KS3ListPartsResultXMLParser.h */,
+				0AAD78E70336E05AC06C6B7F0A417AF7 /* KS3ListPartsResultXMLParser.m */,
+				E4097206E9F1BE84508B75D914232E03 /* KS3MD5Util.h */,
+				3476F7676A6FAD50B36B6D1E5665598E /* KS3MD5Util.m */,
+				4B369B35B98852E243BFC9E2BDD08AE7 /* KS3MultipartUpload.h */,
+				B81E00BA5364AD5A281A3F3EF5C44A06 /* KS3MultipartUpload.m */,
+				9276556B402ECCF7C588CBAD057E2C56 /* KS3ObjectACLXMLParser.h */,
+				DCE6708A6CD065F34072F53AC2A3FE47 /* KS3ObjectACLXMLParser.m */,
+				10D4DD989E8F449AB4EC035F30073D40 /* KS3ObjectSummary.h */,
+				FC0D5512EEED9567D236CAD1A63F2502 /* KS3ObjectSummary.m */,
+				11C6399282074FA186A8D1511CBD3613 /* KS3Owner.h */,
+				A75C804196D3F034DA963503A7DCC30A /* KS3Owner.m */,
+				2D09D7095971CE60D26406C85F550143 /* KS3Part.h */,
+				501BC9822F52685A9B9276EACFEF8C6D /* KS3Part.m */,
+				3A340B905A131CFE73DDA8D65CC267A6 /* KS3PutObjectCopyRequest.h */,
+				4A942469BF6AA5EBFCCCF0FC41D5E506 /* KS3PutObjectCopyRequest.m */,
+				F916EB2A792AEC43CCA0DCC6E39FDD50 /* KS3PutObjectCopyResponse.h */,
+				F9E3386C2B3EC8EA5B05191E0E291761 /* KS3PutObjectCopyResponse.m */,
+				B2CBECDBF8AAF66E325B17B6DF11C1EF /* KS3PutObjectRequest.h */,
+				F55945963774FFD85A99745645651B50 /* KS3PutObjectRequest.m */,
+				32924101DD769C66479227443534209D /* KS3PutObjectResponse.h */,
+				254C0827BE3757D9153E59ACBF9CCA33 /* KS3PutObjectResponse.m */,
+				86839F1F398801B26256DC64A03EABD4 /* KS3Request.h */,
+				E106ACF73C68A361A2536A05668F308D /* KS3Request.m */,
+				0023C48ECC4698037BFB02F73090C457 /* KS3Response.h */,
+				D1043204A54A19F8E98016A76083B22E /* KS3Response.m */,
+				813097EDBB89AC1422FA36E25B9249D1 /* KS3ResponseHeaderOverrides.h */,
+				6968120D1C0C0F6D8470F0C827FA702E /* KS3ResponseHeaderOverrides.m */,
+				C5BD65C5ED1C810E34C613BD2248170B /* KS3SDKUtil.h */,
+				E258A061F4701FEB646AADF5596AFA3A /* KS3SDKUtil.m */,
+				BDEFE658148F196EC047D9A0C99D0E05 /* KS3ServiceRequest.h */,
+				5A2CA042633054D2AD41C90FE7E134A9 /* KS3ServiceRequest.m */,
+				AE5880AFF75819FC27258F283C74A36C /* KS3ServiceResponse.h */,
+				59BF3469DDBA336E1630F5180C4363C1 /* KS3ServiceResponse.m */,
+				1CD19ECA0E5D56D7EE48C96B613E681F /* KS3SetACLRequest.h */,
+				8BA5DD4378B7A759D9056FAFBE4C1DCC /* KS3SetACLRequest.m */,
+				6372C0A52ABC3BF98AA06BEAB19550AB /* KS3SetACLResponse.h */,
+				1DC96775651601C4FF74D99759C87F89 /* KS3SetACLResponse.m */,
+				419C404FD5F3B8265FB0AFB6443E792F /* KS3SetBucketLoggingRequest.h */,
+				96097031DAB8B67785041D47F958AFCB /* KS3SetBucketLoggingRequest.m */,
+				E1DC05CDCBB645B8DD49DD0AC037D5E5 /* KS3SetBucketLoggingResponse.h */,
+				51C555027045046E95C6C28EB454CBD8 /* KS3SetBucketLoggingResponse.m */,
+				BC10EA931A28786A5CEF8F8D7C23467E /* KS3SetGrantACLRequest.h */,
+				83041F3C09AA98EBA30A6A4B749721EE /* KS3SetGrantACLRequest.m */,
+				7C365BCB3D91C1A4D1A5CC2774D8C07D /* KS3SetGrantACLResponse.h */,
+				5DF55B1BEDA49F46186AEC61C218429D /* KS3SetGrantACLResponse.m */,
+				A9002E62B2486F7B7FC4BCB354F98128 /* KS3SetObjectACLRequest.h */,
+				C391D504B66C23CE1E831719703785F6 /* KS3SetObjectACLRequest.m */,
+				490A32340A80C11136F9BE6802409DEF /* KS3SetObjectACLResponse.h */,
+				2B19682E6FAC895C23205BB65B9ECDD2 /* KS3SetObjectACLResponse.m */,
+				B3B82F517040482F075ADF6FC2ED5F5A /* KS3SetObjectGrantACLRequest.h */,
+				D7A47B8924B813952FB6FF8FCF30997F /* KS3SetObjectGrantACLRequest.m */,
+				4384EEC63B876236F3886E15162BCB41 /* KS3SetObjectGrantACLResponse.h */,
+				0E8DC58E9D7BC218687D55F59C944F29 /* KS3SetObjectGrantACLResponse.m */,
+				268DA152CC6A5A9322F2EA2C6C6592F3 /* KS3Upload.h */,
+				7B0D5EDFD12B9CBBE92BF3311D1EB052 /* KS3Upload.m */,
+				58D5A68ACB5A725E4289F999D7FDF062 /* KS3UploadManager.h */,
+				0AB7AB168312D14F2F7807713C917EF9 /* KS3UploadManager.m */,
+				C9CECBF33F06A0C95A47B816BF3CA1A0 /* KS3UploadPartRequest.h */,
+				969CDE6514C87AD5B070FCF8A9786FAF /* KS3UploadPartRequest.m */,
+				F37E0A7E522BA054378BD6C09650AE41 /* KS3UploadPartResponse.h */,
+				73E4833BFED78E94BA49808EE25F5F43 /* KS3UploadPartResponse.m */,
+				4898B10B339C4B170DEB16A4EB51CE94 /* KS3UploadRequest.h */,
+				16312B0D4F2AC8650C793F88C75036C8 /* KS3UploadRequest.m */,
+				C70846BC7D6339AC37F184FF06FD230A /* KS3URLRequest.h */,
+				F1080780C7A6D3C59DDA6FE908FA60AD /* KS3URLRequest.m */,
+				56365D578C1A68DFBACB96447A9F2191 /* KS3WebServiceClient.h */,
+				A2D77608E7BEF8D310E9BE71FA02ADD7 /* KS3WebServiceClient.m */,
+				C83C59F856D31272E899EF1626C3ADEF /* KS3YunSDK.h */,
+				25682841BEC0164D010DCCDC4371CE3B /* Support Files */,
+			);
+			name = New_Ks3SDK;
+			path = New_Ks3SDK;
+			sourceTree = "<group>";
+		};
+		F932F715E808B243FD8C37A9A95F4680 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF98E7DA9191C6A9B76DC29741356504 /* Pods-KS3SDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF98E7DA9191C6A9B76DC29741356504 /* Pods-KS3SDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A242602E780CC58B05E5698E4E0C9 /* Pods-KS3SDKDemo-acknowledgements.markdown */,
+				28C5EB0FDD5C35A77A0F6246CF18BA49 /* Pods-KS3SDKDemo-acknowledgements.plist */,
+				634F7C5D91E60875CD705E6020D58937 /* Pods-KS3SDKDemo-dummy.m */,
+				9351DCCC6B33618BACFE10A48EFC419A /* Pods-KS3SDKDemo.debug.xcconfig */,
+				DC7FC4FD9056C1528A33B47C387E1C5B /* Pods-KS3SDKDemo.release.xcconfig */,
+			);
+			name = "Pods-KS3SDKDemo";
+			path = "Target Support Files/Pods-KS3SDKDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		344C6F40D2B8EFF8B8C89B9699568CD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DEACEE6E7EA47F5155043BD2C9660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136DC7C44E7CB09F8D4CFAE5CA7D4F81 /* KS3AbortMultipartUploadRequest.h in Headers */,
+				80E78C3673F3B7508D104AEEE13EC6BA /* KS3AbortMultipartUploadResponse.h in Headers */,
+				1A1026B83307A48D691507747D702FD0 /* KS3AbstractPutRequest.h in Headers */,
+				5F48E4F19AF933C74845B1E8CCADE18D /* KS3AbstractWebServiceClient.h in Headers */,
+				CAF8DEFE1387E88D71FC7EB9A08D0FC4 /* KS3AccessControlList.h in Headers */,
+				EC6283E482BDF45F7088468D9395C484 /* KS3AuthUtils.h in Headers */,
+				DC3CCF69B752F33411B299578357F787 /* KS3Bucket.h in Headers */,
+				7C798C3F3AE7A031ED352AD612571965 /* KS3BucketACLResult.h in Headers */,
+				04412C83A335C259E83E13FBB5DAC2D6 /* KS3BucketACLXMLParser.h in Headers */,
+				C091A9E6F75162DCCFDEBFFFA6C4B703 /* KS3BucketNameUtilities.h in Headers */,
+				D873A7270EDD5B2C0A74E2E398E0310B /* KS3BucketObject.h in Headers */,
+				94BD8BDB8E1AC76756F1679870B7D425 /* KS3Client.h in Headers */,
+				40C65C38ADC89DE791A9DAD177CA8B25 /* KS3ClientException.h in Headers */,
+				784A7AD67F7611D2DAF55D96F6B4518F /* KS3CompleteMultipartUploadRequest.h in Headers */,
+				5D9E446E69873495B0CC31B523A36AEB /* KS3CompleteMultipartUploadResponse.h in Headers */,
+				567DC26504E53E5A86F78DA6700F8D7E /* KS3CompleteMultipartUploadResult.h in Headers */,
+				B21489405250279A83CA32D14AF9CE51 /* KS3Constants.h in Headers */,
+				8EBA5E3FE86CE304830B6D28FD82C97D /* KS3CreateBucketRequest.h in Headers */,
+				E5C095313AD8E0FC49C1C68D4847AE4F /* KS3CreateBucketResponse.h in Headers */,
+				ED4A4C5CB75B5E74DBB01D360EE6B133 /* KS3Credentials.h in Headers */,
+				6D0E955F719167442EAC78790311583B /* KS3DeleteBucketRequest.h in Headers */,
+				02BDB7B8E2015E6ECB024C9334D82369 /* KS3DeleteBucketResponse.h in Headers */,
+				F174A990A6E7A324C077FAFEA864EA4D /* KS3DeleteObjectRequest.h in Headers */,
+				063FFA94179E33BEA2AF8E2A3F2951A1 /* KS3DeleteObjectResponse.h in Headers */,
+				1CA13D56CEE1066C7EAD616395AB59A1 /* KS3DownLoad.h in Headers */,
+				0DC0ECFDF9512811EF5A9824208742B8 /* KS3ErrorHandler.h in Headers */,
+				90CABF5CAADE61FC9EF2432EE2B7CB2C /* KS3GetACLRequest.h in Headers */,
+				D8657A9A47CC0F7107B5F1265C3F4273 /* KS3GetACLResponse.h in Headers */,
+				B9246CDC87AC06702C68822DF2FA5AB7 /* KS3GetBucketLoggingRequest.h in Headers */,
+				FC95FB1BC0D24F3A959EBF7799897320 /* KS3GetBucketLoggingResponse.h in Headers */,
+				7C7B3FB08E6E47CAF3235CC2ABDC0891 /* KS3GetObjectACLRequest.h in Headers */,
+				D0DBA1376DE12F7027630E79D7562E69 /* KS3GetObjectACLResponse.h in Headers */,
+				6489E8D7F7093CBE7C89EEE700A6CE30 /* KS3GetObjectRequest.h in Headers */,
+				7956D1B7057416D5FB43BFECDDD7C509 /* KS3GetObjectResponse.h in Headers */,
+				BEF5B680F6F2202CBE569C35B7114F2C /* KS3Grant.h in Headers */,
+				1686446E5B92E0A59944DA0158C1E114 /* KS3GrantAccessControlList.h in Headers */,
+				9E193AED726031E365153456A6F86F15 /* KS3HeadBucketRequest.h in Headers */,
+				56BA87BCD4C3D9A4BC6937EE1CD16F69 /* KS3HeadBucketResponse.h in Headers */,
+				8B2D180CAD9D058F7D318F89524EAF35 /* KS3HeadObjectRequest.h in Headers */,
+				81EDE94A0E625A2EB63D63BB96334E58 /* KS3HeadObjectResponse.h in Headers */,
+				7CE3BCCDCEB4209AB4B6B2DC7A89073F /* KS3InitiateMultipartUploadRequest.h in Headers */,
+				79C63B7ECCE23F18E88B8D7699C4B52A /* KS3InitiateMultipartUploadResponse.h in Headers */,
+				3CA1DE002F9BC9D35047F758DCB8DAC5 /* KS3InitiateMultipartUploadResult.h in Headers */,
+				0FD07D39426FF289FF994AD9666FDDC6 /* KS3InitiateMultipartUploadXMLParser.h in Headers */,
+				0660018A87395874122F730431872284 /* KS3ListBucketsRequest.h in Headers */,
+				39F0BF270537E9EA9EEF40201C82D2A3 /* KS3ListBucketsResponse.h in Headers */,
+				8BE7BECD689C986308FE43D89CE713D9 /* KS3ListBucketsResult.h in Headers */,
+				E5F116D585E52F1B45FB645AEF957891 /* KS3ListBucketsXMLParser.h in Headers */,
+				F41908C75B0F0E47A42C72F8576DAA45 /* KS3ListObjectsRequest.h in Headers */,
+				93CE2206649EBE3AB39B52A8E0F724D5 /* KS3ListObjectsResponse.h in Headers */,
+				5EB7547026BA3D5008C1C98A960749AC /* KS3ListObjectsResult.h in Headers */,
+				66FCF6A292FE34D54BB95FD8C878540D /* KS3ListObjectsXMLPrarser.h in Headers */,
+				CC23DAF816B4E31AD3A6969C3A71FAF7 /* KS3ListPartsRequest.h in Headers */,
+				08F03729436100506F84C29D37A07F46 /* KS3ListPartsResponse.h in Headers */,
+				09A1AAACC906A6AD05797F680CB1DFB4 /* KS3ListPartsResult.h in Headers */,
+				0C237BFA4984EC39A914F8E0FED926BE /* KS3ListPartsResultXMLParser.h in Headers */,
+				3DBEDD3AA419B01386EA9A07BB4CD543 /* KS3MD5Util.h in Headers */,
+				4C7AABD917CCB6B2E65C1713004795D3 /* KS3MultipartUpload.h in Headers */,
+				D89E0CD1F54AF1FF978E2A4FC786C6CF /* KS3ObjectACLXMLParser.h in Headers */,
+				84A287EFEE79EE152CC8BCC227A91216 /* KS3ObjectSummary.h in Headers */,
+				5BB863AA6E55CE45A5870CB644148E91 /* KS3Owner.h in Headers */,
+				C3D3ACA2D8C5E1F4764FA195FC520A7F /* KS3Part.h in Headers */,
+				36AB2A0C835624819D1F90CFFD4FB1E4 /* KS3PutObjectCopyRequest.h in Headers */,
+				3C69B31E2581B111F9C80D8514B9C396 /* KS3PutObjectCopyResponse.h in Headers */,
+				801F97171E00AD8BF66E6E678BE680E2 /* KS3PutObjectRequest.h in Headers */,
+				FA02AC8063C6698036DC6C7C3C09F179 /* KS3PutObjectResponse.h in Headers */,
+				02C2BB5C2FCE2C0502E8AE6094C89283 /* KS3Request.h in Headers */,
+				50F87066AB08D31F8F1B7A31ACBB0D2E /* KS3Response.h in Headers */,
+				6A66D17084CB9E365D5F0AB977E26F77 /* KS3ResponseHeaderOverrides.h in Headers */,
+				40B0B93A5794BE4FBBEC8C697A789E19 /* KS3SDKUtil.h in Headers */,
+				E65E6A55CC0991EB90E7C81735FE53EA /* KS3ServiceRequest.h in Headers */,
+				2789A155138990BC60DDF798196B5594 /* KS3ServiceResponse.h in Headers */,
+				311F9230F96D2F51E6F608925CC664E7 /* KS3SetACLRequest.h in Headers */,
+				85C998FED8DCFC0616237C6BB3A704C0 /* KS3SetACLResponse.h in Headers */,
+				1CC2B1A0AA4A8B537B04DF10628A34E5 /* KS3SetBucketLoggingRequest.h in Headers */,
+				169B57DA448C2CD05EA295521DDC9729 /* KS3SetBucketLoggingResponse.h in Headers */,
+				B87D241BB43763FAE8AABA85D00E858A /* KS3SetGrantACLRequest.h in Headers */,
+				CBEAE2115810B328FBBED6A1365AB469 /* KS3SetGrantACLResponse.h in Headers */,
+				FCC852BCC2F642E6F951687A50758DDF /* KS3SetObjectACLRequest.h in Headers */,
+				DC8653D3D2D4632576C61EEE4FA013C4 /* KS3SetObjectACLResponse.h in Headers */,
+				4912A26D9CACE2DD0FB38DCE797CBDB8 /* KS3SetObjectGrantACLRequest.h in Headers */,
+				8E1B307747F8D5B14B429DF70C16D1BD /* KS3SetObjectGrantACLResponse.h in Headers */,
+				7B79445F6398E1C8AB1A074E0BADA548 /* KS3Upload.h in Headers */,
+				9F3B1C27D9B2554F2617162342312B61 /* KS3UploadManager.h in Headers */,
+				B6ED3BC04A1651AD5CA454B40925D5DC /* KS3UploadPartRequest.h in Headers */,
+				D995C8CE0BB890B1AE429AD9D2FE014E /* KS3UploadPartResponse.h in Headers */,
+				5DC458A5C2D4AE74620EE4790DFA3704 /* KS3UploadRequest.h in Headers */,
+				1D14EEAA9A9CD175B250713FB583C53B /* KS3URLRequest.h in Headers */,
+				7CE583D917FF96853AC83B720962AB24 /* KS3WebServiceClient.h in Headers */,
+				52E78B7B8C6272EC051B825B50861A70 /* KS3YunSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1381AAA35D5967D7FA334650E53B04E6 /* Pods-KS3SDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B0BC3467DF502F4C0BB79C54BFCC7C /* Build configuration list for PBXNativeTarget "Pods-KS3SDKDemo" */;
+			buildPhases = (
+				344C6F40D2B8EFF8B8C89B9699568CD8 /* Headers */,
+				E2B9C0B03B889022AC4592137AF046C9 /* Sources */,
+				90D9248403208641A4F2036C9E5A3645 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AD6C7955CAB6A96F1245FC89922DD12 /* PBXTargetDependency */,
+			);
+			name = "Pods-KS3SDKDemo";
+			productName = "Pods-KS3SDKDemo";
+			productReference = 51F6B5D8FDD9A62BFBC1AC24C3547C7F /* libPods-KS3SDKDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5F0300A55051918A100CA9281C7D8E29 /* New_Ks3SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E35EB6E237ABA69EACB2B1E4B3B5BF3 /* Build configuration list for PBXNativeTarget "New_Ks3SDK" */;
+			buildPhases = (
+				8E3DEACEE6E7EA47F5155043BD2C9660 /* Headers */,
+				32ED8A0D75F422990CE9462822966E52 /* Sources */,
+				C15E56CCA61117EEB3F1DA0A52C6B560 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = New_Ks3SDK;
+			productName = New_Ks3SDK;
+			productReference = 3D07E347B4CBC8064F36A072C7DD5899 /* libNew_Ks3SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07B5095F51FB8825403E55A4A512076C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F0300A55051918A100CA9281C7D8E29 /* New_Ks3SDK */,
+				1381AAA35D5967D7FA334650E53B04E6 /* Pods-KS3SDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32ED8A0D75F422990CE9462822966E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F92E6DD392E798ED8E819E371BB66F8 /* KS3AbortMultipartUploadRequest.m in Sources */,
+				0AAD27372754E572EAC21C747DA28BB3 /* KS3AbortMultipartUploadResponse.m in Sources */,
+				386D49D522775414AD2166D26FC1E447 /* KS3AbstractPutRequest.m in Sources */,
+				99CEC3F219707FEB21E5853DB16801F9 /* KS3AbstractWebServiceClient.m in Sources */,
+				8DBFF3F855278147B8A1561D3E7C873E /* KS3AccessControlList.m in Sources */,
+				AD194A8101A13D54E55F696E43C4B60F /* KS3AuthUtils.m in Sources */,
+				59082378437AADF0CAF1D9AD2B6351F1 /* KS3Bucket.m in Sources */,
+				BADCDDFF79384A9608E02623183A488D /* KS3BucketACLResult.m in Sources */,
+				AA329E928B1984446E467CD89A75654E /* KS3BucketACLXMLParser.m in Sources */,
+				2A1D7F7B3EB32BBB5E376A7EA7C7A3F1 /* KS3BucketNameUtilities.m in Sources */,
+				3701E2092377B0155595A886CD38B813 /* KS3BucketObject.m in Sources */,
+				A25AB0E348A6BA803B6E7B6FCC2857E8 /* KS3Client.m in Sources */,
+				257530C194F2CFC4DC4083C495CAFD79 /* KS3ClientException.m in Sources */,
+				5E4855190C6D858A9162B587774B54B6 /* KS3CompleteMultipartUploadRequest.m in Sources */,
+				F295A910D3B26441F9C148E42E9EEA6A /* KS3CompleteMultipartUploadResponse.m in Sources */,
+				6DF43BA5CFFC92A3FF7CD60E7B38E870 /* KS3CompleteMultipartUploadResult.m in Sources */,
+				5890343E49B587892DE5386A7C0ECED5 /* KS3CreateBucketRequest.m in Sources */,
+				F5E18B9B0FDA1AD0CA976A7536C4060B /* KS3CreateBucketResponse.m in Sources */,
+				CEB0FDF60C23EDBB216018F204E33AA8 /* KS3Credentials.m in Sources */,
+				2DD70F11FB8A7AA310434996C6B7514D /* KS3DeleteBucketRequest.m in Sources */,
+				A59B5523B26D670703329E115CEF0A74 /* KS3DeleteBucketResponse.m in Sources */,
+				1D9A3584D5A21AC241F9E85953053BC0 /* KS3DeleteObjectRequest.m in Sources */,
+				2584E65299A2ABE9975693177AA8730F /* KS3DeleteObjectResponse.m in Sources */,
+				7B043209B78286A3FE73F198DDB7AF05 /* KS3DownLoad.m in Sources */,
+				209727AE2D2F7F08F2C906D3E38910FF /* KS3ErrorHandler.m in Sources */,
+				91D5FB45D7FC351C3AB5D6D92E335069 /* KS3GetACLRequest.m in Sources */,
+				4FE42A05889030B7FE968A7DE5EA76B0 /* KS3GetACLResponse.m in Sources */,
+				DEFCB9E9B1428861C961F1E11E496B1E /* KS3GetBucketLoggingRequest.m in Sources */,
+				E335FCD7FAD611EBA7FC2AAE5B76ABC2 /* KS3GetBucketLoggingResponse.m in Sources */,
+				D8838DAF3185DF40D5FE3F8252272F95 /* KS3GetObjectACLRequest.m in Sources */,
+				F55750475E05F84C631F2B80F8FC5C67 /* KS3GetObjectACLResponse.m in Sources */,
+				0E1ECFDF6CAE780B6A8963B2D21DE796 /* KS3GetObjectRequest.m in Sources */,
+				695D52C20C92FAF126E043C1AA793DFB /* KS3GetObjectResponse.m in Sources */,
+				71E3FDE7A94D3EDCEA4140A2D21435D5 /* KS3Grant.m in Sources */,
+				292A155F7613AEEE401398BA415C1620 /* KS3GrantAccessControlList.m in Sources */,
+				082ADADAF491113B2F3E10632CC9324A /* KS3HeadBucketRequest.m in Sources */,
+				61A46917F1310B4322BE3AEB584ED881 /* KS3HeadBucketResponse.m in Sources */,
+				518CDF27D567F56588A37BCC1BB1E594 /* KS3HeadObjectRequest.m in Sources */,
+				60F5FC1E4412178769CC30B101AF27A8 /* KS3HeadObjectResponse.m in Sources */,
+				52DE0EF758B9CE03D812DEFAEBD86060 /* KS3InitiateMultipartUploadRequest.m in Sources */,
+				15BE4966D7A018A6C923B69C517ED19F /* KS3InitiateMultipartUploadResponse.m in Sources */,
+				8C2CDB0C2D2D148E77EA612D3D86D2A7 /* KS3InitiateMultipartUploadResult.m in Sources */,
+				D07F392FE89823DC8539D1287A50E604 /* KS3InitiateMultipartUploadXMLParser.m in Sources */,
+				E0491218B39BEBD6B267322014FC1A9E /* KS3ListBucketsRequest.m in Sources */,
+				BED8CBB8DF38B73DC85AC8D281E4FFC8 /* KS3ListBucketsResponse.m in Sources */,
+				1A1CE9F2FF8BD375360D400DE4B7D6B9 /* KS3ListBucketsResult.m in Sources */,
+				95684085ED29E6201F69B33DF6A740B3 /* KS3ListBucketsXMLParser.m in Sources */,
+				7C8965A3A48A43261F176181B38AE324 /* KS3ListObjectsRequest.m in Sources */,
+				7D6426A7079752347AA42B49400E11CA /* KS3ListObjectsResponse.m in Sources */,
+				CDB8AEB883A61A5277CF6EF70243C6BA /* KS3ListObjectsResult.m in Sources */,
+				12A57A72A987989C173B1364DB6C4CAE /* KS3ListObjectsXMLPrarser.m in Sources */,
+				C1F98278CFF46B4208810714574AFFDE /* KS3ListPartsRequest.m in Sources */,
+				22679EB902E4B96F42563D1EC0AB50AE /* KS3ListPartsResponse.m in Sources */,
+				852556FBEC5E1D29B5210A2C39F89C80 /* KS3ListPartsResult.m in Sources */,
+				98341EA502D18A43D5FED037B1451CFC /* KS3ListPartsResultXMLParser.m in Sources */,
+				5ABCB5755FC85520EDE6DFB1C907221F /* KS3MD5Util.m in Sources */,
+				C757C888B6D13C1FB75352FA525709C3 /* KS3MultipartUpload.m in Sources */,
+				263F082AC0123C2BA3FDA1F20B3AFB9E /* KS3ObjectACLXMLParser.m in Sources */,
+				A86F586CCAF472BC515B90D18E751B0A /* KS3ObjectSummary.m in Sources */,
+				B7D0A04ACD78BAD0D183D3E5E22C39C8 /* KS3Owner.m in Sources */,
+				886BBF29B32DE087DBA1E9A9CE245774 /* KS3Part.m in Sources */,
+				1F8D46387C9D4B2D707E58A28945B46B /* KS3PutObjectCopyRequest.m in Sources */,
+				B8AB88F2A8833024C077AB9E18E550C0 /* KS3PutObjectCopyResponse.m in Sources */,
+				61E7623260FAAC29058DCAAAFEEAC5BC /* KS3PutObjectRequest.m in Sources */,
+				B673FD5564F78349C23C7B6C6AAA6D1D /* KS3PutObjectResponse.m in Sources */,
+				290A2C61A7423F334CB0F98651F568C2 /* KS3Request.m in Sources */,
+				15AF2BF0A7851EF5BE4FB1AF182BC299 /* KS3Response.m in Sources */,
+				CA5DB4FEEEBAD9C38820A446B8220576 /* KS3ResponseHeaderOverrides.m in Sources */,
+				296522D9401EDD8E72962B6D02FBA16D /* KS3SDKUtil.m in Sources */,
+				28F4F6A7F83DDBA91D5F117257E687F2 /* KS3ServiceRequest.m in Sources */,
+				8C5C4B6CD7CD9E53D396E946871D4873 /* KS3ServiceResponse.m in Sources */,
+				7B899593DA854BD9C3B1A18D0664D474 /* KS3SetACLRequest.m in Sources */,
+				072700E9EB4D77E438536688E5033F67 /* KS3SetACLResponse.m in Sources */,
+				5A27BF9B3669FC6E3879E3B71713F6EA /* KS3SetBucketLoggingRequest.m in Sources */,
+				226818B12DE7B497E0AAA4C1C39F1689 /* KS3SetBucketLoggingResponse.m in Sources */,
+				604EBB1276E8DDD7E80547F668533E44 /* KS3SetGrantACLRequest.m in Sources */,
+				8383BEE8C8CE1AF804235105EB964F5D /* KS3SetGrantACLResponse.m in Sources */,
+				141AA60070208A34D1BB52DE50E46EA7 /* KS3SetObjectACLRequest.m in Sources */,
+				7C0A203A898894B758F543407E299172 /* KS3SetObjectACLResponse.m in Sources */,
+				3364C9FAF4F51239C30551D0177870C7 /* KS3SetObjectGrantACLRequest.m in Sources */,
+				D9472C1D52FC2850CDC0516C26D8A97C /* KS3SetObjectGrantACLResponse.m in Sources */,
+				799FC210705A30B0A9A3BAD170702896 /* KS3Upload.m in Sources */,
+				2767B8D02A2E4769AEB9159D94627678 /* KS3UploadManager.m in Sources */,
+				ED46EE3427ADCE5FA2812EE617608BC0 /* KS3UploadPartRequest.m in Sources */,
+				6019A6CF8B4DDF2E470044C2615AF978 /* KS3UploadPartResponse.m in Sources */,
+				327D35B3E087D6723D346321E245D8EC /* KS3UploadRequest.m in Sources */,
+				4BEBA548B145B6D0A1400CCEC60BD3C0 /* KS3URLRequest.m in Sources */,
+				63CE5801E4083E828CD238415EC690C5 /* KS3WebServiceClient.m in Sources */,
+				929D534008CAC316E8AAD10290EC83E8 /* New_Ks3SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B9C0B03B889022AC4592137AF046C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA01AF31428CA315B52EFF26D879FFBE /* Pods-KS3SDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AD6C7955CAB6A96F1245FC89922DD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = New_Ks3SDK;
+			target = 5F0300A55051918A100CA9281C7D8E29 /* New_Ks3SDK */;
+			targetProxy = CA1BD39F9776E9A36D610D57C411A702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DBCCC543EB10B5F8BDDA42003F16AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		901C704577DD70A54507571BAF109AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7634CC08FA09CE512B14E44EBE217C44 /* New_Ks3SDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/New_Ks3SDK/New_Ks3SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = New_Ks3SDK;
+				PRODUCT_NAME = New_Ks3SDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		997396B560DE9D1B01713A390FED2E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9351DCCC6B33618BACFE10A48EFC419A /* Pods-KS3SDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44357C9D754B25F9410369D002D7377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7FC4FD9056C1528A33B47C387E1C5B /* Pods-KS3SDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7818A6D226CC23A15D561F4F5519E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA8101416B24A9DDDEC8E9E0B562E271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29C91095B95386CC54479F5371BA2C9 /* New_Ks3SDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/New_Ks3SDK/New_Ks3SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = New_Ks3SDK;
+				PRODUCT_NAME = New_Ks3SDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E35EB6E237ABA69EACB2B1E4B3B5BF3 /* Build configuration list for PBXNativeTarget "New_Ks3SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901C704577DD70A54507571BAF109AB7 /* Debug */,
+				EA8101416B24A9DDDEC8E9E0B562E271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7818A6D226CC23A15D561F4F5519E0B /* Debug */,
+				7DBCCC543EB10B5F8BDDA42003F16AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B0BC3467DF502F4C0BB79C54BFCC7C /* Build configuration list for PBXNativeTarget "Pods-KS3SDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997396B560DE9D1B01713A390FED2E34 /* Debug */,
+				C44357C9D754B25F9410369D002D7377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
